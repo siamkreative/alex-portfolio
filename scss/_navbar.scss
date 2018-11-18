@@ -1,0 +1,9 @@
+.navbar {
+    .navbar-nav .nav-link {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-right: ($spacer * 1.5);
+        padding-left: ($spacer * 1.5);
+    }
+}

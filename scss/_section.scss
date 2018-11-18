@@ -1,0 +1,38 @@
+.section {
+  padding: 10rem 0;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+
+  .section-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #9bc2ff;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .btn-primary {
+    font-size: 16px;
+    background-color: #fff;
+
+    &:before {
+      content: '+ ';
+    }
+  }
+}
+
+.section-blue {
+  color: $section-blue-text;
+  background-color: $section-blue-bg;
+
+  .btn-primary {
+    color: $accent;
+  }
+}
