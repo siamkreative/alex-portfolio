@@ -1,7 +1,8 @@
 .section {
   padding: 10rem 0;
   background-repeat: no-repeat;
-  background-position: 100% 50%;
+  background-position-x: calc(100% - 850px);
+  background-size: contain;
 
   .section-subtitle {
     font-size: 20px;
@@ -20,7 +21,10 @@
 
   .btn-primary {
     font-size: 16px;
-    background-color: #fff;
+    border: none;
+    margin-top: ($spacer * 2);
+    color: #fff;
+    background-color: $accent;
 
     &:before {
       content: '+ ';
@@ -31,8 +35,10 @@
 .section-blue {
   color: $section-blue-text;
   background-color: $section-blue-bg;
+  background-position-x: 100%;
 
   .btn-primary {
     color: $accent;
+    background-color: #fff;
   }
 }
