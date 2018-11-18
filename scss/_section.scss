@@ -1,6 +1,7 @@
 .section {
   padding: 10rem 0;
   background-repeat: no-repeat;
+  // https://css-tricks.com/positioning-offset-background-images/
   background-position-x: calc(100% - 850px);
   background-size: contain;
 
