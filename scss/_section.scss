@@ -48,4 +48,23 @@
   .container {
     max-width: 900px;
   }
+  .btn-primary {
+    &:before {
+      content: '';
+    }
+  }  
+}
+
+#about + #contact {
+  padding-top: 0;
+}
+
+#contact {
+  label {
+    font-weight: bold;
+  }
+  .form-control {
+    background-color: #EBF2F6;
+    border-color: #EBF2F6;
+  }
 }
