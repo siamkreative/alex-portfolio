@@ -48,6 +48,29 @@
   .container {
     max-width: 900px;
   }
+  h2 {
+    position: relative;
+    text-align: center;
+
+    span {
+      background-color: #fff;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 0;
+      width: 100%;
+      border-bottom: 3px dashed #cdd9df;
+      margin-top: -1.5px;
+      z-index: -1;
+    }
+  }
   .btn-primary {
     &:before {
       content: '';
