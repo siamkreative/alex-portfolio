@@ -71,6 +71,12 @@
     background-color: #ebf2f6;
     border-color: #ebf2f6;
   }
+  #linkedin {
+    display: inline-block;
+    background: url('/assets/logo_linkedin.svg') no-repeat 50% 50%;
+    padding: 0 5px;
+    color: transparent;
+  }
 }
 
 @include media-breakpoint-down(sm) {
