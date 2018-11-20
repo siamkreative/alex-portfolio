@@ -1,5 +1,5 @@
 .section {
-  padding: 10rem 0;
+  padding-bottom: 3rem;
   background-repeat: no-repeat;
   // https://css-tricks.com/positioning-offset-background-images/
   background-position-x: calc(100% - 850px);
@@ -55,6 +55,10 @@
   }  
 }
 
+#about {
+  padding-top: 3rem;
+}
+
 #about + #contact {
   padding-top: 0;
 }
@@ -66,5 +70,17 @@
   .form-control {
     background-color: #EBF2F6;
     border-color: #EBF2F6;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .section {
+    background-image: none !important;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .section {
+    padding: 10rem 0;
   }
 }
