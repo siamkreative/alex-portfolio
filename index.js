@@ -3,7 +3,7 @@ import SmoothScroll from 'smooth-scroll'
 
 // Smooth scroll
 const scroll = new SmoothScroll('[data-scroll]', {
-  header: '#mainnav'
+  header: '#top'
 })
 
 // Copyright info
