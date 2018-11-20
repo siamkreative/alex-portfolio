@@ -1,0 +1,17 @@
+<svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Project/Enterprise-UI2" transform="translate(-1212.000000, -214.000000)">
+            <g id="Group-2" transform="translate(910.000000, 0.000000)">
+                <g id="Group-12" transform="translate(301.000000, 177.000000)">
+                    <g id="Group-19" transform="translate(1.000000, 32.000000)">
+                        <g id="icon_project_enterprise-ui" transform="translate(24.000000, 29.000000) scale(-1, 1) translate(-24.000000, -29.000000) translate(0.000000, 5.000000)">
+                            <rect id="Rectangle" x="0" y="0" width="48" height="48"></rect>
+                            <circle id="Oval" stroke="#2C4C7F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" cx="23.5" cy="24.5" r="22.5"></circle>
+                            <path d="M6.5,25.5 L12.5,25.5 L17.02,14.2 C17.2529565,13.6232401 17.8181069,13.2504556 18.440003,13.2633378 C19.0618991,13.2762199 19.6111274,13.6720879 19.82,14.258 L26.404,32.908 C26.5993044,33.4610048 27.098988,33.849464 27.6830764,33.9023675 C28.2671649,33.9552709 28.828513,33.6629139 29.12,33.154 L33.5,25.5 L39.5,25.5" id="Shape" stroke="#2C4C7F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
