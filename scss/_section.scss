@@ -1,5 +1,5 @@
 .section {
-  padding-bottom: 3rem;
+  padding-bottom: ($spacer * 2);
   background-repeat: no-repeat;
   // https://css-tricks.com/positioning-offset-background-images/
   background-position-x: calc(100% - 850px);
@@ -23,7 +23,7 @@
   .btn-primary {
     font-size: 16px;
     border: none;
-    margin-top: ($spacer * 2);
+    margin-top: $spacer;
     color: #fff;
     background-color: $accent;
 
@@ -52,11 +52,11 @@
     &:before {
       content: '';
     }
-  }  
+  }
 }
 
 #about {
-  padding-top: 3rem;
+  padding-top: ($spacer * 2);
 }
 
 #about + #contact {
@@ -68,8 +68,8 @@
     font-weight: bold;
   }
   .form-control {
-    background-color: #EBF2F6;
-    border-color: #EBF2F6;
+    background-color: #ebf2f6;
+    border-color: #ebf2f6;
   }
 }
 
@@ -82,5 +82,9 @@
 @include media-breakpoint-up(sm) {
   .section {
     padding: 10rem 0;
+
+    .btn {
+      margin-top: ($spacer * 2);
+    }
   }
 }
