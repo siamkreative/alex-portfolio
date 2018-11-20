@@ -1,5 +1,4 @@
 import './scss/main.scss'
-import bootstrap from 'bootstrap'
 import SmoothScroll from 'smooth-scroll'
 
 // Smooth scroll
