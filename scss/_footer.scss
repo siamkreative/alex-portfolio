@@ -3,9 +3,12 @@
   padding: ($spacer * 2);
 
   .logo {
+    color: #fff;
+    opacity: 1;
+
     &:before,
     &:after {
-      color: #EBF2F6;
+      color: #ebf2f6;
     }
   }
 }
