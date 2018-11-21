@@ -1,4 +1,11 @@
 .footer {
   background-color: $primary;
   padding: ($spacer * 2);
+
+  .logo {
+    &:before,
+    &:after {
+      color: #EBF2F6;
+    }
+  }
 }
