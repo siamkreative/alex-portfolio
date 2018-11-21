@@ -26,9 +26,13 @@
 }
 
 .section-blue {
-  color: $section-blue-text;
-  background-color: $section-blue-bg;
+  color: $white;
+  background-color: $primary;
   background-position-x: 100%;
+
+  h2 {
+    color: #fff;
+  }
 
   .btn-primary {
     color: $accent;
@@ -46,9 +50,12 @@
     position: relative;
     text-align: center;
 
+    svg {
+      background-color: #fff;
+    }
+
     span {
       background-color: #fff;
-      padding-left: 2rem;
       padding-right: 2rem;
     }
 

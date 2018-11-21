@@ -1,8 +1,17 @@
-// Bootstrap overrides
-$primary: #3A62A1;
-$border-radius: 0;
-
 // Custom stuff
-$section-blue-text: #fff;
-$section-blue-bg: $primary;
+$white: #fff;
 $accent: #E60D61;
+
+$blue-600: #2C4C7F;
+$blue-500: #3A62A1;
+$blue-400: #9BC2FF;
+
+$grey-500: #558099;
+$grey-400: #8BAABC;
+$grey-300: #CDD9DF;
+$grey-200: #E0E7EB;
+$grey-100: #EBF2F6;
+
+// Bootstrap overrides
+$primary: $blue-500;
+$border-radius: 0;
