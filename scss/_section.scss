@@ -4,12 +4,23 @@
   // https://css-tricks.com/positioning-offset-background-images/
   background-position-x: calc(100% - 850px);
   background-size: contain;
+  position: relative;
+  overflow: hidden;
 
   .section-subtitle {
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     color: #9bc2ff;
+  }
+
+  .section-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 50%;
+    height: 100%;
+    width: auto;
   }
 
   .btn-primary {
@@ -30,6 +41,11 @@
   background-color: $primary;
   background-position-x: 100%;
 
+  .section-img {
+    left: 50%;
+    right: inherit;
+  }
+
   h2 {
     color: #fff;
   }
@@ -46,6 +62,7 @@
   .container {
     max-width: 900px;
   }
+
   h2 {
     position: relative;
     text-align: center;
@@ -99,26 +116,27 @@
   }
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
   .section {
     background-image: none !important;
   }
 }
 
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-up(md) {
   .section {
     padding: 10rem 0;
 
     h2 {
       font-size: 48px;
     }
-  
+
     p {
       font-size: 16px;
     }
 
     .btn {
       margin-top: ($spacer * 2);
+      position: absolute;
     }
   }
 }
