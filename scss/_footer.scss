@@ -1,4 +1,14 @@
 .footer {
   background-color: $primary;
   padding: ($spacer * 2);
+
+  .logo {
+    color: #fff;
+    opacity: 1;
+
+    &:before,
+    &:after {
+      color: #ebf2f6;
+    }
+  }
 }

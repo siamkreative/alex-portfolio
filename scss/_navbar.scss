@@ -1,12 +1,36 @@
 .navbar {
   background-color: #fff;
 
+  .logo {
+    svg {
+      opacity: 0.2;
+    }
+  }
+
   .navbar-nav .nav-link {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     padding-right: $spacer;
     padding-left: $spacer;
+  }
+}
+
+.logo {
+  &:before,
+  &:after {
+    text-transform: uppercase;
+    color: rgba(85, 128, 153, 0.5);
+  }
+
+  &:before {
+    content: 'Alexander';
+    margin-right: 1rem;
+  }
+
+  &:after {
+    content: 'Fandén';
+    margin-left: 1rem;
   }
 }
 
