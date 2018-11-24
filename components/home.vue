@@ -39,7 +39,7 @@
             </div>
             </div>
             <div class="text-center">
-            <a class="btn btn-primary" href="#" role="button">Read more</a>
+                <router-link to="/enterprise-ui" class="btn btn-primary">Read more</router-link>
             </div>
         </div>
         </div>
@@ -61,7 +61,7 @@
             </div>
             </div>
             <div class="text-center">
-            <a class="btn btn-primary" href="#" role="button">Read more</a>
+                <router-link to="/dashboard" class="btn btn-primary">Read more</router-link>
             </div>
         </div>
         </div>
