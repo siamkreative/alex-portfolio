@@ -8,10 +8,13 @@
   overflow: hidden;
 
   .section-subtitle {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: #9bc2ff;
+    color: $grey-400;
+  }
+  .section-subtitle-blue {
+    color: $blue-400;
   }
 
   .section-img {
@@ -24,12 +27,6 @@
   }
 
   .btn-primary {
-    font-size: 16px;
-    border: none;
-    margin-top: $spacer;
-    color: #fff;
-    background-color: $accent;
-
     &:before {
       content: '+ ';
     }
@@ -53,6 +50,11 @@
   .btn-primary {
     color: $accent;
     background-color: #fff;
+    
+    &:hover, &:focus {
+      color: darken($accent, 15%);
+      box-shadow: 0 10px 10px 0 rgba(34,67,120,0.2);
+    }
   }
 }
 
@@ -65,7 +67,7 @@
 
   h2 {
     position: relative;
-    text-align: center;
+    text-align: center;    
 
     svg {
       background-color: #fff;
@@ -74,6 +76,7 @@
     span {
       background-color: #fff;
       padding-right: 2rem;
+      padding-left: 1rem;
     }
 
     &:before {
@@ -84,7 +87,7 @@
       right: 0;
       height: 0;
       width: 100%;
-      border-bottom: 3px dashed #cdd9df;
+      border-bottom: 2px dashed #cdd9df;
       margin-top: -1.5px;
       z-index: -1;
     }

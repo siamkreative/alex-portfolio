@@ -6,6 +6,10 @@
     color: #fff;
     opacity: 1;
 
+    &:hover, &:focus {
+      opacity: 0.9;
+    }
+
     &:before,
     &:after {
       color: #ebf2f6;
