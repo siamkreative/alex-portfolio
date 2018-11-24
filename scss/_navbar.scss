@@ -1,7 +1,9 @@
 .navbar {
   background-color: rgba(255,255,255,0.95);
+  padding-top: $spacer;
+  padding-bottom: $spacer;
 
-  .logo {
+  .logo {   
     &:hover, &:focus {
       opacity: 0.8;
     }
