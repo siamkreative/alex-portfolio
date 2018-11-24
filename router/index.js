@@ -9,7 +9,14 @@ Vue.use(Router)
 
 export default new Router({
   scrollBehavior (to, from, savedPosition) {
-    return { x: 0, y: 0 }
+    if (to.path !== '/') {
+      return {
+        x: 0,
+        y: 0
+      }
+    } else {
+      return savedPosition
+    }
   },
   routes: [
     {

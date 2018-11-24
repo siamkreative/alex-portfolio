@@ -14,7 +14,8 @@ new Vue({
 // Smooth scroll
 const scroll = new SmoothScroll('[data-scroll]', {
   header: '#top',
-  updateURL: false
+  updateURL: false,
+  topOnEmptyHash: false
 })
 
 // Copyright info

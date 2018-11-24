@@ -103,7 +103,7 @@ ul {
 }
 
 .fade-enter-active, .fade-leave-active {
-  transition: opacity .3s;
+  transition: opacity .4s ease-out;
 }
 
 .fade-enter, .fade-leave-to {
