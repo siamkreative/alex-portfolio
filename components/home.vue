@@ -11,8 +11,8 @@
         <div class="container">
             <div class="row">
             <div class="col-md-6">
-                <div class="section-subtitle">App</div>
-                <h2>Agoda connect</h2>
+                <div class="section-subtitle section-subtitle-blue">App</div>
+                <h3>Agoda connect</h3>
                 <p>Manage your hotel on the go! With the Agoda Connect app, hotels all over the world can create promotions, update rates, add allotment and see who’s checking in and out of the hotel.</p>
             </div>
             </div>
@@ -29,12 +29,12 @@
             <div class="row justify-content-end">
             <div class="col-md-6">
                 <div class="section-subtitle">Design system</div>
-                <h2>
+                <h3>
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="1em" height="1em">
                     <use xlink:href="#icon_project_enterprise-ui"></use>
                 </svg>
                 <span>Enterprise UI</span>
-                </h2>
+                </h3>
                 <p>A comprehensive design system designed and built from ground up. The Enterprise UI design system makes it faster for both designers and developers to build a better and more cohesive system. Designed for web and app.</p>
             </div>
             </div>
@@ -50,13 +50,13 @@
         <div class="container">
             <div class="row">
             <div class="col-md-6">
-                <div class="section-subtitle">Web</div>
-                <h2>
+                <div class="section-subtitle section-subtitle-blue">Web</div>
+                <h3>
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="1em" height="1em">
                     <use xlink:href="#icon_project_dashboard"></use>
                 </svg>
                 <span>Dashboard</span>
-                </h2>
+                </h3>
                 <p>Hotel performance at a glance! With a action-based dashboard, hotels can see their preformance and take quick actions to get more bookings at agoda.com.</p>
             </div>
             </div>
@@ -74,11 +74,11 @@
             </svg>
             <span>About</span>
             </h2>
-            <p>I am a UI/UX designer from Sweden, based in Bangkok, Thailand. I design beautiful experiences for both mobile and web. Currently, I’m designing the enterprise systems at Agoda, helping hotels all over the world to sell rooms easier and quicker than ever before.</p>
+            <p>I am a UI/UX designer from Sweden, based in Bangkok, Thailand. I design beautiful experiences for both mobile and web. Currently I’m designing the enterprise systems at Agoda - helping hotels all over the world to sell rooms easier and quicker than ever before.</p>
             <p>Before joining Agoda I designed and lead the development of market-leading web applications for the Real Estate market in Scandinavia, US and Australia.</p>
             <div class="row">
             <div class="col-md-6">
-                <h3>Tools I like</h3>
+                <h4>Tools I like</h4>
                 <ul>
                 <li>Sketch</li>
                 <li>Abstract</li>
@@ -92,8 +92,8 @@
                 </ul>
             </div>
             <div class="col-md-6">
-                <h3>Things I like</h3>
-                <h4>UX</h4>
+                <h4>Things I like</h4>
+                <h5>UX</h5>
                 <ul>
                 <li>Usability and Accessibility<br> WCAG 2.0</li>
                 <li>Concept development<br> Ideation, Sketching, Wireframing</li>
@@ -101,7 +101,7 @@
                 <li>User testing</li>
                 <li>Design sprints</li>
                 </ul>
-                <h4>UI</h4>
+                <h5>UI</h5>
                 <ul>
                 <li>Multi-device experience<br> Desktop, Tablet, Mobile, VR</li>
                 <li>Responsive Web</li>
@@ -116,7 +116,7 @@
 
         <div class="section section-narrow" id="contact">
         <div class="container">
-            <h2 class="font-weight-bold">
+            <h2>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="60" height="60">
                 <use xlink:href="#icon_contact"></use>
             </svg>

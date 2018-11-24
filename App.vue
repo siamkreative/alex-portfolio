@@ -3,10 +3,10 @@
     <nav class="navbar navbar-expand-md fixed-top" id="top">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="btn" data-scroll href="#work">Work <span class="sr-only">(current)</span></a>
+          <a class="btn btn-text" data-scroll href="#work">Work <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="btn" data-scroll href="#about">About</a>
+          <a class="btn btn-text" data-scroll href="#about">About</a>
         </li>
       </ul>
       <a class="logo nav-link mx-auto d-none d-sm-block" data-scroll href="#top">

@@ -6,14 +6,88 @@ body {
 
 h1, h2, h3, h4, h5, h6, .btn {
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  color: $grey-600;
 }
 
 h2 {
-  color: $blue-600;
+  color: $grey-500;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 3rem;
+  color: $blue-500;
+}
+
+h4 {
+  font-size:2rem;
+  color: $grey-400;
+}
+
+h5 {
+  color: $grey-400;
+}
+
+a {
+  font-weight: bold;
+  color: $grey-600;
+
+  &:hover, &:focus {
+    text-decoration: underline;
+    box-shadow: none;
+    outline: none;
+  }
+  
+  &:before, &:after {
+    font-weight: normal;
+  }
+}
+
+.section-blue h3 {
+  color: $white;
 }
 
 .btn {
   font-weight: bold;
+  color: $grey-500;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: $accent;
+  margin: ($spacer * 3) auto;
+  border: 2px solid transparent;
+
+  &:hover, &:focus  {
+    background-color: lighten($accent, 5%);
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px 0 rgba(34,67,120,0.2);
+  }
+}
+
+.btn-outline {
+  border: 2px solid $grey-200;
+  
+  &:hover, &:focus {
+    border-color: $grey-300;
+    color: $grey-600;
+  }
+}
+
+.btn-text {
+  border: 2px solid transparent;
+
+  &:hover, &:focus {
+    border: 2px solid $grey-200;
+  }
+  
 }
 
 @include media-breakpoint-down(sm) {
@@ -22,6 +96,10 @@ h2 {
     width: 100%;
     padding: .66rem;
   }
+}
+
+ul {
+  padding:0;
 }
 
 .fade-enter-active, .fade-leave-active {

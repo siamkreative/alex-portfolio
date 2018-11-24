@@ -3,19 +3,16 @@
 
   .logo {
     svg {
+      color: $grey-500;
       opacity: 0.2;
+      &:hover, &:focus {
+        opacity: 0.25;
+      }
     }
   }
 }
 
-.btn {
-  color: $grey-500;
-  border: 2px;
-}
-.btn:hover {
-  color: $grey-200;
-  border: 2px $grey-100;
-}
+
 
 .logo {
   &:before,
