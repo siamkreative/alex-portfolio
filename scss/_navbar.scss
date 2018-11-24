@@ -1,19 +1,20 @@
 .navbar {
-  background-color: #fff;
+  background-color: rgba(255,255,255,0.95);
 
   .logo {
     svg {
       opacity: 0.2;
     }
   }
+}
 
-  .navbar-nav .nav-link {
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding-right: $spacer;
-    padding-left: $spacer;
-  }
+.btn {
+  color: $grey-500;
+  border: 2px;
+}
+.btn:hover {
+  color: $grey-200;
+  border: 2px $grey-100;
 }
 
 .logo {

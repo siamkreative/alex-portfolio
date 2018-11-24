@@ -1,12 +1,12 @@
-<template>
+  <template>
   <div id="app">
     <nav class="navbar navbar-expand-md fixed-top" id="top">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" data-scroll href="#work">Work <span class="sr-only">(current)</span></a>
+          <a class="btn" data-scroll href="#work">Work <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-scroll href="#about">About</a>
+          <a class="btn" data-scroll href="#about">About</a>
         </li>
       </ul>
       <a class="logo nav-link mx-auto d-none d-sm-block" data-scroll href="#top">
@@ -16,7 +16,7 @@
       </a>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link btn btn-outline-primary" data-scroll href="#contact">Contact</a>
+          <a class="btn btn-outline" data-scroll href="#contact">Contact</a>
         </li>
       </ul>
     </nav>

@@ -6,6 +6,7 @@ $blue-600: #2C4C7F;
 $blue-500: #3A62A1;
 $blue-400: #9BC2FF;
 
+$grey-600: #31607B;
 $grey-500: #558099;
 $grey-400: #8BAABC;
 $grey-300: #CDD9DF;
@@ -15,3 +16,6 @@ $grey-100: #EBF2F6;
 // Bootstrap overrides
 $primary: $blue-500;
 $border-radius: 0;
+
+$btn-padding-y: (0.66rem);
+$btn-padding-x:(3rem);

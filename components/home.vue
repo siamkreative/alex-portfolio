@@ -122,7 +122,7 @@
             </svg>
             <span>Get in touch</span>
             </h2>
-            <p>Reach me on Linked<span id="linkedin">In</span>, email me at <a href="mailto:alexander@fanden.design">alexander@fanden.design</a> or drop a message in the form below: </p>
+        <p>Reach me on <a href="https://www.linkedin.com/in/alexfanden/">Linked<span id="linkedin">In</span></a>, email me at <a href="mailto:alexander@fanden.design">alexander@fanden.design</a> or drop a message in the form below: </p>
             <form action="https://formspree.io/alexander@fanden.design" method="POST">
             <div class="row">
                 <div class="col-md-6">

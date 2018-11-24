@@ -1,6 +1,6 @@
 body {
   padding-top: 5rem;
-  color: #558099;
+  color: $grey-500;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6, .btn {
 }
 
 h2 {
-  color: #2C4C7F;
+  color: $blue-600;
 }
 
 .btn {
@@ -20,7 +20,7 @@ h2 {
   .btn {
     display: block;
     width: 100%;
-    padding: .75rem;
+    padding: .66rem;
   }
 }
 
