@@ -24,7 +24,11 @@
       <img class="project-img img-fluid" src="/projects/img_agoda-connect_2-1920.png" alt="Agoda Connect">
 
       <div class="text-center">
-        <router-link to="/" class="btn btn-primary">Go Back</router-link>
+        <router-link to="/" class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="1em" height="1em">
+                    <use xlink:href="#icon_back"></use>
+          </svg> Go Back
+        </router-link>
       </div>
     </section>
   </div>

@@ -31,12 +31,6 @@
       margin-top: -.5rem;
     }
   }
-
-  .btn-primary {
-    &:before {
-      content: '+ ';
-    }
-  }
 }
 
 .section-blue {
@@ -55,11 +49,13 @@
 
   .btn-primary {
     color: $accent;
+    fill: $accent;
     background-color: #fff;
     
     &:hover, &:focus {
       color: darken($accent, 15%);
       box-shadow: 0 10px 10px 0 rgba(34,67,120,0.2);
+      fill: darken($accent, 15%);
     }
   }
 }

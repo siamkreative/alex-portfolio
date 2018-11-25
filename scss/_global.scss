@@ -66,6 +66,7 @@ li {
 
 .btn {
   font-weight: bold;
+  letter-spacing: 1px;
   color: $grey-500;
   &:focus {
     box-shadow: none;
@@ -73,7 +74,8 @@ li {
 }
 
 .btn-primary {
-  color: #fff;
+  color: white;
+  fill: white;
   background-color: $accent;
   margin: ($spacer * 3) auto 0 auto;
   border: 2px solid transparent;

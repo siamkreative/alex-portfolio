@@ -19,7 +19,11 @@
                     <span>Agoda connect</span>
                 </h3>
                 <p>Manage your hotel on the go! With the Agoda Connect app, hotels all over the world can create promotions, update rates, add allotment and see who’s checking in and out of the hotel.</p>
-                <router-link to="/agoda-connect" class="btn btn-primary">Read more</router-link>
+                <router-link to="/agoda-connect" class="btn btn-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="0.75em" height="0.75em">
+                    <use xlink:href="#icon_plus"></use>
+                    </svg> Read more
+                </router-link>
             </div>
             </div>
         </div>
@@ -39,7 +43,11 @@
                 <span>Enterprise UI</span>
                 </h3>
                 <p>A comprehensive design system designed and built from ground up. The Enterprise UI design system makes it faster for both designers and developers to build a better and more cohesive system. Designed for web and app.</p>
-                <router-link to="/enterprise-ui" class="btn btn-primary">Read more</router-link>
+                <router-link to="/enterprise-ui" class="btn btn-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="0.75em" height="0.75em">
+                    <use xlink:href="#icon_plus"></use>
+                    </svg> Read more
+                </router-link>
             </div>
             </div>
         </div>
@@ -58,8 +66,12 @@
                 </svg>
                 <span>Dashboard</span>
                 </h3>
-                <p>Hotel performance at a glance! With a action-based dashboard, hotels can see their preformance and take quick actions to get more bookings at agoda.com.</p>
-                <router-link to="/dashboard" class="btn btn-primary">Read more</router-link>
+                <p>Hotel performance at a glance! With an action-based dashboard, hotels can see their preformance and take quick actions to get more bookings at agoda.com.</p>
+                <router-link to="/dashboard" class="btn btn-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="0.75em" height="0.75em">
+                    <use xlink:href="#icon_plus"></use>
+                    </svg> Read more
+                </router-link>
             </div>
             </div>
         </div>
@@ -73,8 +85,8 @@
             </svg>
             <span>About</span>
             </h2>
-            <p>I am a UI/UX designer from Sweden, based in Bangkok, Thailand. I design beautiful experiences for both mobile and web. Currently I’m designing the enterprise systems at Agoda - helping hotels all over the world to sell rooms easier and quicker than ever before.</p>
-            <p>Before joining Agoda I designed and lead the development of market-leading web applications for the Real Estate market in Scandinavia, US and Australia.</p>
+            <p>I am a UI/UX designer from Sweden, based in Bangkok, Thailand. I design beautiful experiences for both mobile and web. Currently, I’m designing the enterprise systems at Agoda - helping hotels all over the world to sell rooms easier and quicker than ever before.</p>
+            <p>Before joining Agoda, I designed and lead the development of market-leading web applications for the real estate market in Scandinavia, US and Australia.</p>
             <div class="row">
             <div class="col-md-6">
                 <h4>Tools I like</h4>
