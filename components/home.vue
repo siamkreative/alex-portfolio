@@ -12,7 +12,12 @@
             <div class="row">
             <div class="col-md-6">
                 <div class="section-subtitle section-subtitle-blue">App</div>
-                <h3>Agoda connect</h3>
+                <h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="1em" height="1em">
+                        <use xlink:href="#icon_project_agoda-connect"></use>
+                    </svg>
+                    <span>Agoda connect</span>
+                </h3>
                 <p>Manage your hotel on the go! With the Agoda Connect app, hotels all over the world can create promotions, update rates, add allotment and see who’s checking in and out of the hotel.</p>
                 <router-link to="/agoda-connect" class="btn btn-primary">Read more</router-link>
             </div>
