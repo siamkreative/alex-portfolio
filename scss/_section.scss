@@ -105,6 +105,12 @@
   padding-top: 0;
 }
 
+#about {
+  ul {
+    padding-left: ($grid-gutter-width / 2);
+  }
+}
+
 #contact {
   label {
     font-weight: bold;
