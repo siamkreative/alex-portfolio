@@ -62,7 +62,7 @@
 
         <div class="section section-narrow" id="about">
         <div class="container">
-            <h2 class="font-weight-bold">
+            <h2>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="60" height="60">
                 <use xlink:href="#icon_about"></use>
             </svg>
