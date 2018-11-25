@@ -17,12 +17,26 @@
   }
 }
 
-@include media-breakpoint-up(md) {
-  .project-subtitle {
-    font-size: 32px;
-    text-transform: uppercase;
-  }
+@include media-breakpoint-down(md) {
   h1 {
-    font-size: 96px;
+    font-size: 4rem;
   }
+  h4 {
+    font-size: 1.5rem;
+    margin-bottom:0.5rem;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  h1 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1rem;
+    margin-bottom:0rem;
+  }
+}
+
+.project-img:first-of-type {
+  margin-top: 6rem;
 }
