@@ -89,15 +89,15 @@
                 <h4>Things I like</h4>
                 <h5>UX</h5>
                 <ul>
-                <li>Usability and Accessibility<br> WCAG 2.0</li>
-                <li>Concept development<br> Ideation, Sketching, Wireframing</li>
+                <li>Usability and Accessibility<br><span class="subtle-text">WCAG 2.0</span></li>
+                <li>Concept development<br><span class="subtle-text">Ideation, Sketching, Wireframing</span></li>
                 <li>Low and hi-fidelity prototyping</li>
                 <li>User testing</li>
                 <li>Design sprints</li>
                 </ul>
                 <h5>UI</h5>
                 <ul>
-                <li>Multi-device experience<br> Desktop, Tablet, Mobile, VR</li>
+                <li>Multi-device experience<br><span class="subtle-text">Desktop, Tablet, Mobile, VR</span></li>
                 <li>Responsive Web</li>
                 <li>Mobile first</li>
                 <li>Touch friendly</li>
