@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel *.html --open",
-    "build": "parcel build index.html --no-source-maps"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --no-source-maps",
+    "restart": "rm -rf .cache && rm -r dist && yarn start"
   },
   "keywords": [],
   "author": "Julien Vernet <julien@vernet.me>",

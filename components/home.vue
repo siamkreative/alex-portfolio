@@ -14,10 +14,8 @@
                 <div class="section-subtitle section-subtitle-blue">App</div>
                 <h3>Agoda connect</h3>
                 <p>Manage your hotel on the go! With the Agoda Connect app, hotels all over the world can create promotions, update rates, add allotment and see who’s checking in and out of the hotel.</p>
-            </div>
-            </div>
-            <div class="text-center">
                 <router-link to="/agoda-connect" class="btn btn-primary">Read more</router-link>
+            </div>
             </div>
         </div>
         </div>
@@ -36,10 +34,8 @@
                 <span>Enterprise UI</span>
                 </h3>
                 <p>A comprehensive design system designed and built from ground up. The Enterprise UI design system makes it faster for both designers and developers to build a better and more cohesive system. Designed for web and app.</p>
-            </div>
-            </div>
-            <div class="text-center">
                 <router-link to="/enterprise-ui" class="btn btn-primary">Read more</router-link>
+            </div>
             </div>
         </div>
         </div>
@@ -58,10 +54,8 @@
                 <span>Dashboard</span>
                 </h3>
                 <p>Hotel performance at a glance! With a action-based dashboard, hotels can see their preformance and take quick actions to get more bookings at agoda.com.</p>
-            </div>
-            </div>
-            <div class="text-center">
                 <router-link to="/dashboard" class="btn btn-primary">Read more</router-link>
+            </div>
             </div>
         </div>
         </div>

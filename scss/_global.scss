@@ -62,7 +62,7 @@ a {
 .btn-primary {
   color: #fff;
   background-color: $accent;
-  margin: ($spacer * 3) auto;
+  margin: ($spacer * 3) auto 0 auto;
   border: 2px solid transparent;
 
   &:hover, &:focus  {
@@ -90,7 +90,7 @@ a {
   
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
   .btn {
     display: block;
     width: 100%;

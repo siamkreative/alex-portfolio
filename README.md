@@ -1,16 +1,17 @@
 # About
 
-Website created by [YOSA Digital](https://yosadigital.com/) for Alexander Fanden.
+Website created by [YOSA Digital](https://yosadigital.com/) for Alexander Fandén.
 
-### Installing
+### Getting started
 
-First make sure you have parcel globally installed on your machine, then simply run:
+To install all dependencies and spin a local web server, simply run:
 
 ```
-npm install && npm run start
+yarn install && yarn start
 ```
 
 ## Built With
 
 * [Parcel](https://parceljs.org/)
+* [Vue.js](https://vuejs.org/)
 * [Bootstrap 4](https://getbootstrap.com/)

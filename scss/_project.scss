@@ -11,6 +11,10 @@
   img {
     margin-bottom: 1rem;
   }
+
+  .btn-primary {
+    margin-bottom: ($spacer * 3);
+  }
 }
 
 @include media-breakpoint-up(md) {
