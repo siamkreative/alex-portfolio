@@ -94,8 +94,13 @@ li {
   font-weight: bold;
   letter-spacing: 1px;
   color: $grey-500;
+
   &:focus {
     box-shadow: none;
+  }
+
+  svg {
+    fill: $grey-500;
   }
 }
 
@@ -110,6 +115,10 @@ li {
     background-color: lighten($accent, 5%);
     border: 2px solid transparent;
     box-shadow: 0 0.5rem 0.5rem 0 rgba(34,67,120,0.2);
+  }
+
+  svg {
+    fill: $white;
   }
 }
 
