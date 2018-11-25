@@ -18,23 +18,7 @@ li {
   margin: 0.5rem 0;
 }
 
-.logo {
-  &:before,
-  &:after {
-    text-transform: uppercase;
-    color: rgba(85, 128, 153, 0.5);
-  }
 
-  &:before {
-    content: 'Alexander';
-    margin-right: 1rem;
-  }
-
-  &:after {
-    content: 'Fandén';
-    margin-left: 1rem;
-  }
-}
 
 @include media-breakpoint-down(sm) {
   .logo {
