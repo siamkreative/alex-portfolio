@@ -1,27 +1,29 @@
 <template>
-  <div class="project-bg" style="background-image: url('/projects/bg-agoda-connect-1920.jpg')">
+  <div class="project-bg" style="background-image: url('/projects/bg-dashboard-1920.jpg')">
     <section class="container-fluid project">
       <div class="text-center">
-        <div class="project-subtitle">App</div>
-        <h1>Agoda Connect</h1>
+        <h4>Web</h4>
+        <h1>Dashboard</h1>
       </div>
 
-      <h2>Background</h2>
-      <p>Running a hotel is a 24-hour operation, one that does not always happen in front of a computer - we saw a increasing need from hotels to be able to perform daily operations on their phones, and at the same time competitors launched mobile apps to cater their needs.</p>
+      <h4>Background</h4>
+      <p>In order to keep the hotels on agoda.com happy we have a team dedicated at helping the hotels to understand their business better. They provide insights and suggestions to increase the hotels performance.</p>
+      <p>However, some of these tasks were time consuming and could be automated. By switching from a manual labour intensive approach to self-service we could lift the weight of our staffs shoulders and also provide insights faster and at any time.</p>
 
-      <h2>The team</h2>
-      <p>Product Owner, UI/UX Designer, UX Researcher, Full-stack developers, Quality Assurance.</p>
+      <h4>The team</h4>
+      <p>Product Owner, UI/UX Designers, UX Researcher, Full-stack developers, Quality Assurance.</p>
 
-      <h2>Research and design</h2>
-      <p>We visited hotels in Bangkok and Seoul to find out more about the different roles and how they use our competitors apps today. Based on the research we developed 5 personas which we used when developing concepts.</p>
-      <p>As we designed the MVP concepts of the app, hotels were brought in to test prototypes. Based on the findings we were able to tweak the designs prior to development.</p>
+      <h4>Research and design</h4>
+      <p>In order to undertand what data our hotels needed and which tasks they normally performed, we had to immerse ourselves into the daily tasks of the hotels and our staff. We shadowed our staff and took note of the most common tasks they performed during a day. We scheduled hotel visits to understand how they interact with our systems and what data is most valuable for them.</p>
+      <p>We consolidated all feedback and started to brainstorm on different approaches. The first concept was a fully fledged dashboard with all the data point our hotels needed. It was appreciated by the hotels, but we quickly realized that it only solved one part of the problem - understanding the business. Based on that understanding the hotels needed to take action, but the dashboard didn’t provide any way to do this.</p>
+      <p>Instead we prototyped a hybrid approach - enough data to gain insights, but also useful suggestions. This way the hotels wouldn’t get lost half-way through the funnel and we wouldn’t get calls to perform these tasks for the hotels.</p>
 
-      <h2>Validation and improvements</h2>
-      <p>After launching the MVP version we developed more features as well as improving existing functionality.</p>
-      <p>Whenever we change existing features we run A/B tests to assure that we only release better experiences. This oftentimes leads to fine-tuning and tweaking the designs before arriving at a desired solution.</p>
+      <h4>Validation and improvements</h4>
+      <p>We scheduled usability testing sessions with hotels to identify the remaining issues. We realized that there are loads of things hotels can do to improve their business so we divided the actions into groups and prioritized the actoins based on how much they would gain the most business.</p>
+      <p>After launching the MVP version, we continued to tweak and design new features. With each tweak we A/B test to make sure that it would improve the performance of the dashboard.</p>
 
-      <img class="project-img img-fluid" src="/projects/img_agoda-connect_1-1920.png" alt="Agoda Connect">
-      <img class="project-img img-fluid" src="/projects/img_agoda-connect_2-1920.png" alt="Agoda Connect">
+      <img class="project-img img-fluid" src="/projects/img_dashboard_1-1920.png" alt="Dashboard loading">
+      <img class="project-img img-fluid" src="/projects/img_dashboard_2-1920.png" alt="Promotion performance dashboard">
 
       <div class="text-center">
         <router-link to="/" class="btn btn-primary">Go Back</router-link>

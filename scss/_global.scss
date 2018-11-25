@@ -11,10 +11,12 @@ h1, h2, h3, h4, h5, h6, .btn {
 
 h1 {
   color: $grey-600;
+  font-size:5rem;
 }
 
 h2 {
   color: $grey-500;
+  margin-bottom: 2rem;
 }
 
 h3 {
@@ -25,7 +27,10 @@ h3 {
 
 h4 {
   font-size:2rem;
+  line-height: 2rem;
   color: $grey-400;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 h5 {
