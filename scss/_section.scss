@@ -36,6 +36,7 @@
 .section-blue {
   color: $white;
   background-color: $primary;
+  background-image: linear-gradient(to right,$primary 70%, $blue-600 75%, $blue-600);
   background-position-x: 100%;
 
   .section-img {
