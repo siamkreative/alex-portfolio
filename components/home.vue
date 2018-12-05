@@ -133,8 +133,8 @@
             </svg>
             <span>Get in touch</span>
             </h2>
-        <p>Reach me on <a href="https://www.linkedin.com/in/alexfanden/">Linked<span id="linkedin">In</span></a>, email me at <a href="mailto:alexanderfanden@hotmail.com">alexanderfanden@hotmail.com</a> or drop a message in the form below: </p>
-            <form action="https://formspree.io/alexanderfanden@hotmail.com" method="POST">
+        <p>Reach me on <a href="https://www.linkedin.com/in/alexfanden/">Linked<span id="linkedin">In</span></a>, email me at <a href="mailto:fanden.alex@gmail.com">fanden.alex@gmail.com</a> or drop a message in the form below: </p>
+            <form action="https://formspree.io/fanden.alex@gmail.com" method="POST">
             <div class="row">
                 <div class="col-md-6">
                 <div class="form-group">
