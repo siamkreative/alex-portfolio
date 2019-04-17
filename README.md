@@ -1,6 +1,6 @@
 # About
 
-Website created by [YOSA Digital](https://yosadigital.com/) for Alexander Fandén.
+Website created by Julien Vernet from [Fluent](https://fluenthq.co/) for Alexander Fandén.
 
 ### Getting started
 
