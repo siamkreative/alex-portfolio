@@ -1,25 +1,23 @@
 <template>
   <div class="project-bg" style="background-image: url('/projects/app-dashboard/project-hero-1920.png')">
     <section class="container-fluid project">
-      <div class="text-center">
-        <h4>App</h4>
-        <h1>Performance and insights feed</h1>
-      </div>
+      <h4>APP</h4>
+      <h1>Performance and insights feed</h1>
       <p>Agoda Connect is an enterprise tool where hotels can manage rates and allotment, bookings, promotions and much more. The Agoda Connect app was launched early 2018 with a limited set of features. During 2019 we set out to expand on the app and build out some of the wanted features.
       </p>
       <p>Our goal with this project was to provide an overview of hotel performance and operations, thus enabling hotels to make better decisions and accelerate their business with Agoda.
       </p>
 
-      <h4>Background</h4>
+      <h5>Background</h5>
       <p>To get a better understanding on where to focus our efforts, we conducted both qualitative and quantitative research. We sent out surveys to hotels and asked them to rank their most important features. We also travelled to some of our key markets to conduct interviews with hoteliers to get a better understanding of their wants and needs.
       </p>
       <p>When we talked to our users, it became clear that we weren’t providing sufficient insights on how they perform. The most common way for hotels to get insights was in monthly meetings with their sales representative from Agoda, who would bring a printed monthly report and discuss areas of improvements face to face.</p>
       <p>While this report was appreciated, it didn’t provide all the data our hotels wanted, and didn’t allow them to customize it the way they needed. By providing a more flexible way to generate these insights, we believe that hotels would be able to make better decisions that would be beneficial for both them and us. By doing this we would also reduce the labour intensive process of printing reports and visiting hotels.</p>
 
-      <h4>My role in the team</h4>
+      <h5>My role in the team</h5>
       <p>I lead the design of the overall app experience and worked as the UX/UI Designer throughout this project. I worked together with a UX Researcher, Copywriter, Prototyper, Product Owner and a team of developers and QA engineers.</p>
 
-      <h4>Initial research</h4>
+      <h5>Initial research</h5>
       <p>In order to understand what data our hotels needed and which tasks they normally performed, we had to immerse ourselves into the daily tasks of the hotels and their staff, as well as our Market Managers who provide data to the hotels. We shadowed our staff and took note of the most common tasks they performed during a day. We scheduled hotel visits to understand how they interact with our systems and what data is most valuable for them.</p>
 
       <p>Not all hotels operate in the same way, and it was important for us to cover as many types of markets, hotels and users as possible in or visits. By pulling data on active users on both app and desktop, we could target specific hotels in our biggest markets. With the help of local sales teams, we could schedule visits with a diverse set of hotels, from small family-run boutique hotels in Taichung, Taiwan to large chain hotels in Cebu, Philippines.</p>
@@ -41,7 +39,7 @@
 
 <img class="img-fluid" src="/projects/app-dashboard/initial-research-3-1920.png" alt="Roles and tasks of operational staff versus decision makers">
 
-      <h4>Diving into the data</h4>
+      <h5>Diving into the data</h5>
       <p>
         We decided to focus on the decision makers because they have a bigger say at the hotel and can make decisions that operational staff may not be allowed to make. We weren’t catering to their needs at all at the time, whilst operational staff already had the tools they needed on the desktop platform. Providing performance data was going to be a bigger challenge for us, and therefore something we wanted to tackle right away.
       </p>
@@ -74,7 +72,7 @@
         With this insight she can take action and fix the problem.
       </p>
 
-      <h4>Early explorations</h4>
+      <h5>Early explorations</h5>
       <p>
         With all the potential data points defined and a formula to generate insights, I started to work on some initial concepts. At the time, the landing page of our app was a very basic feed of generic suggestions. The engagement was low and our users were reluctant to take the suggestions, so we decided to replace this feed altogether with our new solution.
       </p>
@@ -112,7 +110,7 @@
 
       <img class=" img-fluid" src="/projects/app-dashboard/early-explorations-2-1920.png" alt="Mockup of tabbed design">
 
-      <h4>Bringing in the users</h4>
+      <h5>Bringing in the users</h5>
       <p>
         We invited Bangkok-based hotels to our office to test the prototype. It quickly turned out that the tabbed approach didn’t work. Almost none of the test participants noticed the tabs, and the labels of the tabs (especially “Operation”) were not clear enough.
       </p>
@@ -129,7 +127,7 @@
         With these insights, we decided to move forward with the one page solution.
       </p>
       
-      <h4>Accidental insights and improvements</h4>
+      <h5>Accidental insights and improvements</h5>
       <p>
         One of the main features of the dashboard was a set of scores that would help hotels to understand how well they are performing:
         <ul>
@@ -205,7 +203,7 @@
 
       <img class=" img-fluid" src="/projects/app-dashboard/accidental-insights-3-1920.png" alt="Mockups all key features of the new feed">
 
-      <h4>Bringing the pieces together</h4>
+      <h5>Bringing the pieces together</h5>
       <p>
         As the development of the prototype was quite time consuming, I had time to build out the remaining designs and document all the new components.
       </p>
@@ -234,7 +232,7 @@
         Our team is usually very hesitant to introduce new colors or UI elements in our designs, but we decided that this was a good enough reason to introduce more colors to the palette
       </p>
 
-      <h4>Going forward</h4>
+      <h5>Going forward</h5>
       <p>
         After visiting 4 markets in our initial research (Thailand, Taiwan, Japan and Philippines) and 3 markets to validate our designs (Thailand, Malaysia and Singapore), we felt confident enough to move onto the next stage of the project. Now we had to decide on a plan to build and roll out the new features!
       </p>
@@ -248,8 +246,8 @@
         At the time of writing this, we’re just about to start development of the MVP version.
       </p>
       
-      <h4>Learnings</h4>
-      <h5>Keeping it real</h5>
+      <h5>Learnings</h5>
+      <h6>Keeping it real</h6>
       <p>
         Moving between different levels of fidelity when designing is key. Low fidelity wireframes work great for quick iterations of different concepts and idea generation. However, when performing usability labs, it proves useful to use a prototype that is as realistic as possible.
         <ul>
@@ -263,7 +261,7 @@
             Use real data whenever possible. We didn’t have enough time to customize the content of our prototype to each hotel, and this caused them to focus on things that we didn’t care about from a design perspective. Despite using the right currency and hotel names, we noticed that some hotels were distracted by by certain metrics (“This seems wrong, are these really my rates? Is this really my revenue over the last month, or is it quarterly?”). We believe that some aspects of our prototype might have performed better if all the numbers were real, as they would be able to connect the dots quicker and provide feedback on the utility of the designs rather than the accuracy of the numbers.
           </li>
 
-          <h5>Optimize for the right audience</h5>
+          <h6>Optimize for the right audience</h6>
           <p>
             After talking to 15-20 hotels, we noticed that some hoteliers are used to crunching numbers and analyzing their performance regularly and use it as a basis for their business decisions. Others tend to play by ear. In general, the first group would understand how to read the graphs, analyze the numbers and make sense of the prototype. The second group sometimes struggled with abbreviations, legends for graphs and more. We knew we wouldn’t be able to cater to both groups, at least not in the near future, and therefore we had to take a decision - do we cater to the more savvy users, or do we “dumb it down” so that everybody can understand it?
           </p>
