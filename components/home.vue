@@ -1,8 +1,32 @@
 <template>
     <div class="index">
         <div class="hero">
-            <h1 class="font-weight-bold">Hi, I’m Alex!</h1>
+            <h1 class="font-weight-bold">Alexander Fandén</h1>
             <p class="lead">A UX/UI Designer based in Bangkok, Thailand.<br> Scroll down to see some of my lastest work.</p>
+        </div>
+
+        <div class="section section-blue" id="work">
+        <img src="/projects/bg_project_agoda-connect-375@2x.jpg" alt="Performance and insights feed" width="750" height="496" class="img-fluid d-block d-md-none">
+        <img src="/projects/bg_project_agoda-connect-1920.jpg" alt="Performance and insights feed" width="1010" height="600" class="d-none d-md-block section-img">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-6">
+                <div class="section-subtitle section-subtitle-blue">App</div>
+                <h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="1em" height="1em">
+                        <use xlink:href="#icon_project_agoda-connect"></use>
+                    </svg>
+                    <span>Performance and insights feed</span>
+                </h3>
+                <p>Some text.</p>
+                <router-link to=app-dashboard class="btn btn-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="0.75em" height="0.75em">
+                    <use xlink:href="#icon_plus"></use>
+                    </svg> Read more
+                </router-link>
+            </div>
+            </div>
+        </div>
         </div>
 
         <div class="section section-blue" id="work">

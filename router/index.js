@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import home from '../components/home'
 import agodaConnect from '../components/agoda-connect'
+import appDashboard from '../components/app-dashboard'
 import enterpriseUI from '../components/enterprise-ui'
 import dashboard from '../components/dashboard'
 
@@ -35,6 +36,10 @@ export default new Router({
     {
       path: '/dashboard',
       component: dashboard
+    },
+    {
+      path: '/app-dashboard',
+      component: appDashboard
     }
   ]
 })
