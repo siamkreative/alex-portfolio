@@ -1,5 +1,5 @@
 <template>
-  <div class="project-bg" style="background-image: url('/projects/bg-agoda-connect-1920.jpg')">
+  <div class="project-bg" style="background-image: url('/projects/app-dashboard/project-hero-1920.png')">
     <section class="container-fluid project">
       <div class="text-center">
         <h4>App</h4>
