@@ -2,7 +2,7 @@
     <div class="index">
         <div class="hero">
             <h1 class="font-weight-bold">Alexander Fandén</h1>
-            <p class="lead">A UX/UI Designer based in Bangkok, Thailand.<br> Scroll down to see some of my lastest work.</p>
+            <p class="lead">A UX & UI Designer based in Bangkok, Thailand.<br> Scroll down to see some of my lastest work.</p>
         </div>
 
         <div class="section section-blue" id="work">
@@ -13,10 +13,7 @@
             <div class="col-md-6">
                 <div class="section-subtitle section-subtitle-blue">App</div>
                 <h3>
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="1em" height="1em">
-                        <use xlink:href="#icon_project_agoda-connect"></use>
-                    </svg>
-                    <span>Performance and insights feed</span>
+                    Performance and insights feed
                 </h3>
                 <p>Some text.</p>
                 <router-link to=app-dashboard class="btn btn-primary">
@@ -37,10 +34,7 @@
             <div class="col-md-6">
                 <div class="section-subtitle section-subtitle-blue">App</div>
                 <h3>
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="1em" height="1em">
-                        <use xlink:href="#icon_project_agoda-connect"></use>
-                    </svg>
-                    <span>Agoda connect</span>
+                   Agoda connect
                 </h3>
                 <p>Manage your hotel on the go! With the Agoda Connect app, hotels all over the world can create promotions, update rates, add allotment and see who’s checking in and out of the hotel.</p>
                 <router-link to="/agoda-connect" class="btn btn-primary">
@@ -61,10 +55,7 @@
             <div class="col-md-6">
                 <div class="section-subtitle">Design system</div>
                 <h3>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="1em" height="1em">
-                    <use xlink:href="#icon_project_enterprise-ui"></use>
-                </svg>
-                <span>Enterprise UI</span>
+                    Enterprise UI
                 </h3>
                 <p>A comprehensive design system designed and built from ground up. The Enterprise UI design system makes it faster for both designers and developers to build a better and more cohesive system. Designed for web and app.</p>
                 <router-link to="/enterprise-ui" class="btn btn-primary">
@@ -85,10 +76,7 @@
             <div class="col-md-6">
                 <div class="section-subtitle section-subtitle-blue">Web</div>
                 <h3>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="1em" height="1em">
-                    <use xlink:href="#icon_project_dashboard"></use>
-                </svg>
-                <span>Dashboard</span>
+                    Dashboard
                 </h3>
                 <p>Hotel performance at a glance! With an action-based dashboard, hotels can see their preformance and take quick actions to get more bookings at agoda.com.</p>
                 <router-link to="/dashboard" class="btn btn-primary">
@@ -104,10 +92,7 @@
         <div class="section section-narrow" id="about">
         <div class="container">
             <h2>
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="60" height="60">
-                <use xlink:href="#icon_about"></use>
-            </svg>
-            <span>About</span>
+                About
             </h2>
             <p>I am a UI/UX designer from Sweden, based in Bangkok, Thailand. I design beautiful experiences for both mobile and web. Currently, I’m designing the enterprise systems at Agoda - helping hotels all over the world to sell rooms easier and quicker than ever before.</p>
             <p>Before joining Agoda, I designed and lead the development of market-leading web applications for the real estate market in Scandinavia, US and Australia.</p>
@@ -152,10 +137,7 @@
         <div class="section section-narrow" id="contact">
         <div class="container">
             <h2>
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="60" height="60">
-                <use xlink:href="#icon_contact"></use>
-            </svg>
-            <span>Get in touch</span>
+                Get in touch
             </h2>
         <p>Reach me on <a href="https://www.linkedin.com/in/alexfanden/">Linked<span id="linkedin">In</span></a>, email me at <a href="mailto:fanden.alex@gmail.com">fanden.alex@gmail.com</a> or drop a message in the form below: </p>
             <form action="https://formspree.io/fanden.alex@gmail.com" method="POST">

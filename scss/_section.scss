@@ -118,7 +118,7 @@
   }
   .form-control {
     background-color: #ebf2f6;
-    border-color: #ebf2f6;
+    border:0;
   }
   #linkedin {
     display: inline-block;
@@ -136,7 +136,7 @@
 
 @include media-breakpoint-up(md) {
   .section {
-    padding: 10rem 0;
+    padding: 8rem 0;
 
     h2 {
       font-size: 3rem;

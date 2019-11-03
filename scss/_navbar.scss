@@ -1,19 +1,20 @@
 .navbar {
-  background-color: rgba(255,255,255,0.95);
-
+  background-color: rgba(255,255,255,0.90);
+  box-shadow: 0px 5px 10px 0px rgba($grey-500, 0.10);
   .logo {   
     &:hover, &:focus {
-      opacity: 0.8;
+      opacity: 0.9;
     }
     svg {
       color: $grey-500;
-      opacity: 0.2;
+      opacity: 0.5;
     }
   }
 }
 
 .btn-text {
   fill: $grey-500;
+  text-transform: uppercase;
   &:hover, &:focus {
     color: darken($grey-500, 15%);
     fill: darken($grey-500, 15%);
@@ -26,8 +27,6 @@ li {
 
 @include media-breakpoint-down(sm) {
   .navbar {
-    box-shadow: 0px 0px 20px 0px rgba(49, 96, 123, 0.15);
-
     .navbar-nav {
       flex-direction: inherit;
     }

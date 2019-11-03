@@ -3,6 +3,7 @@
     <section class="container-fluid project">
       <h4>APP</h4>
       <h1>Performance and insights feed</h1>
+      <p><span id="project-byline"><span id="project-byline-content">Published on 1 November, 2019&nbsp;&nbsp;•&nbsp;&nbsp;19 minutes read</span></span></p>
       <p>Agoda Connect is an enterprise tool where hotels can manage rates and allotment, bookings, promotions and much more. The Agoda Connect app was launched early 2018 with a limited set of features. During 2019 we set out to expand on the app and build out some of the wanted features.
       </p>
       <p>Our goal with this project was to provide an overview of hotel performance and operations, thus enabling hotels to make better decisions and accelerate their business with Agoda.
@@ -268,26 +269,94 @@
           <p>
             When we interviewed the users we asked them about our competitors and how they use their tools. The less savvy users did not use any of their performance tools today - therefore it’s unlikely that they would use our tool in the future. Based on that we decided to cater to the more savvy users.
           </p>
-
-          <img class=" img-fluid" src="/projects/app-dashboard/project-1-1920.png" alt="Collage of mockups from the project">
-
-
-
-
-      <div class="text-center">
+            </section>
+            <div class="quick-facts">
+          <div class="container">
+            <div class="row info">
+              <div class="col-3">
+                Duration<br>
+                <span style="font-weight:bold;">
+                  10 months
+                </span>
+              </div>
+              <div class="col-3">
+                Team<br>
+                <span style="font-weight:bold;">Alexander Fandén</span> (UX Design)<br>
+                <span style="font-weight:bold;">Trey Hurst</span> (UX Research)<br>
+                <span style="font-weight:bold;">Muhammad Athar</span> (Prototyper)<br>
+                <span style="font-weight:bold;">Wesley Hsu</span> (Copywriter)<br>
+                <span style="font-weight:bold;">Ido Hertz</span> (Product Owner)<br>
+              </div>
+              <div class="col-3">
+                Tools I used<br>
+                <span style="font-weight:bold;">
+                  Whimsical<br>
+                  Sketch<br>
+                  InVision<br>
+                  Google Docs<br>
+                  Jira
+                </span>
+              </div>
+              <div class="col-3">
+                Markets visited<br>
+                <span style="font-weight:bold;">
+                  Thailand<br>
+                  Philippines<br>
+                  Japan<br>
+                  Taiwan<br>
+                  Malaysia
+                </span>
+              </div>
+            </div>
+          </div>
+            </div>
+          <img class="img-fluid" src="/projects/app-dashboard/project-1-1920.png" alt="Collage of mockups from the project">
+     <!-- <div class="text-center">
         <router-link to="/" class="btn btn-primary">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="1em" height="1em">
                     <use xlink:href="#icon_back"></use>
-          </svg> Go Back
+          </svg> Next project
         </router-link>
       </div>
-    </section>
-  </div>
+      -->
+     <div class="section section-narrow" id="contact">
+        <div class="container">
+            <h2>
+              Get in touch
+            </h2>
+        <p>Reach me on <a href="https://www.linkedin.com/in/alexfanden/">Linked<span id="linkedin">In</span></a>, email me at <a href="mailto:fanden.alex@gmail.com">fanden.alex@gmail.com</a> or drop a message in the form below: </p>
+            <form action="https://formspree.io/fanden.alex@gmail.com" method="POST">
+            <div class="row">
+                <div class="col-md-6">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input required type="text" name="name" class="form-control" id="name">
+                </div>
+                </div>
+                <div class="col-md-6">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input required type="email" name="_replyto" class="form-control" id="email">
+                </div>
+                </div>
+                <div class="col-md-12">
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea required class="form-control" name="message" id="message" rows="3"></textarea>
+                </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary" type="submit">Send</button>
+            </div>
+            </form>
+        </div>
+        </div>        
 </template>
 
 <script>
 export default {
-  name: 'agodaConnect',
+  name: 'appDashboard',
 }
 </script>
 
