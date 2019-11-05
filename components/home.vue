@@ -5,7 +5,7 @@
             <p class="lead">A UX & UI Designer based in Bangkok, Thailand.<br> Scroll down to see some of my lastest work.</p>
         </div>
 
-        <div class="section section-blue" id="work">
+        <div class="section section-blue work">
         <img src="/projects/bg_project_agoda-connect-375@2x.jpg" alt="Performance and insights feed" width="750" height="496" class="img-fluid d-block d-md-none">
         <img src="/projects/bg_project_agoda-connect-1920.jpg" alt="Performance and insights feed" width="1010" height="600" class="d-none d-md-block section-img">
         <div class="container">
@@ -26,7 +26,7 @@
         </div>
         </div>
 
-        <div class="section section-blue" id="work">
+        <div class="section section-blue work">
         <img src="/projects/bg_project_agoda-connect-375@2x.jpg" alt="Agoda connect" width="750" height="496" class="img-fluid d-block d-md-none">
         <img src="/projects/bg_project_agoda-connect-1920.jpg" alt="Agoda connect" width="1010" height="600" class="d-none d-md-block section-img">
         <div class="container">
@@ -47,7 +47,7 @@
         </div>
         </div>
 
-        <div class="section">
+        <div class="section work">
         <img src="/projects/bg_project_enterprise-ui-375@2x.jpg" alt="Enterprise UI" width="750" height="496" class="img-fluid d-block d-md-none">
         <img src="/projects/bg_project_enterprise-ui-1920.jpg" alt="Enterprise UI" width="1010" height="600" class="d-none d-md-block section-img">
         <div class="container">
@@ -68,7 +68,7 @@
         </div>
         </div>
 
-        <div class="section section-blue">
+        <div class="section section-blue work">
         <img src="/projects/bg_project_dashboard-375@2x.jpg" alt="Dashboard" width="750" height="496" class="img-fluid d-block d-md-none">
         <img src="/projects/bg_project_dashboard-1920.jpg" alt="Dashboard" width="1010" height="600" class="d-none d-md-block section-img">
         <div class="container">

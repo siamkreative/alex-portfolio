@@ -87,20 +87,10 @@
         The first concept we wanted to try out was a dashboard with two tabs:
         <ul>
         <li>
-          Performance
-          <ul>
-            <li>
-              Hotel scores, performance metrics, competitors and more.
-            </li>
-          </ul>
+          <span style="font-weight:bold;">Performance</span> (Hotel scores, performance metrics, competitors and more.)
         </li>
         <li>
-          Operations
-          <ul>
-            <li>
-              Information on new bookings, cancellations, guest messages, reviews and more.
-            </li>
-          </ul>
+          <span style="font-weight:bold;">Operations</span> (Information on new bookings, cancellations, guest messages, reviews and more.)
         </li>
         </ul>
       </p>
@@ -133,13 +123,13 @@
         One of the main features of the dashboard was a set of scores that would help hotels to understand how well they are performing:
         <ul>
           <li>
-            Offer strength: do they provide competitive rates, and do they have rooms available on Agoda.com?
+            <span style="font-weight:bold;">Offer strength:</span> do they provide competitive rates, and do they have rooms available on Agoda.com?
           </li>
           <li>
-            Content: Is the content up to date, do they provide high quality photos?
+            <span style="font-weight:bold;">Content:</span> Is the content up to date, do they provide high quality photos?
           </li>
           <li>
-            Reviews: What’s their review score, in what areas can they improve?
+            <span style="font-weight:bold;">Reviews:</span> What’s their review score, in what areas can they improve?
           </li>
         </ul>
       </p>
@@ -182,8 +172,12 @@
       <p>
         This type of navigation is not really possible to prototype in InVision, and therefore I pulled in one of our Prototypers to the project. With Framer, we were able to build more advanced and interactive prototypes, supporting all the new interactions we wanted to test:
       </p>
-
-       <img class=" img-fluid" src="/projects/app-dashboard/accidental-insights-vid-1920.png" alt="Swipe interaction between the scores">
+      
+      <video controls>
+      <source src="/projects/app-dashboard/dashboard-vid.mp4" type="video/mp4">
+      <source src="/projects/app-dashboard/dashboard-vid.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
 
       <p>
         Building a prototype in Framer, or any tool that requires coding, is fairly time consuming. What would take me a couple of hours with InVision took us a week or more to develop with Framer.
@@ -232,6 +226,8 @@
       <p>
         Our team is usually very hesitant to introduce new colors or UI elements in our designs, but we decided that this was a good enough reason to introduce more colors to the palette
       </p>
+      <img class=" img-fluid" src="/projects/app-dashboard/documentation-1.png" alt="Documentation of color usage">
+      <img class=" img-fluid" src="/projects/app-dashboard/documentation-2.png" alt="Documentation charts">
 
       <h5>Going forward</h5>
       <p>
@@ -246,7 +242,9 @@
       <p>
         At the time of writing this, we’re just about to start development of the MVP version.
       </p>
-      
+  
+      <img class=" img-fluid" src="/projects/app-dashboard/documentation-3.png" alt="Documentation of MVP UI components">
+
       <h5>Learnings</h5>
       <h6>Keeping it real</h6>
       <p>

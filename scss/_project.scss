@@ -9,9 +9,14 @@ img {
   display: block;
 }
 
+video {
+  max-width: 100%;
+  margin: 2rem auto 2rem;
+}
+
 .project {
   padding-top: 35vh;
-  max-width: 1104px;
+  max-width: 1134px;
 
   p, h1, h2, h3, h4, h5, h6 {
     max-width: 728px;
