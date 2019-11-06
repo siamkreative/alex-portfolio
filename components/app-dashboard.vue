@@ -45,7 +45,7 @@
         We decided to focus on the decision makers because they have a bigger say at the hotel and can make decisions that operational staff may not be allowed to make. We weren’t catering to their needs at all at the time, whilst operational staff already had the tools they needed on the desktop platform. Providing performance data was going to be a bigger challenge for us, and therefore something we wanted to tackle right away.
       </p>
       <p>
-        There were tons of data we could give to the hotels - in order to get a better overview, I created a mindmap of all scores, metrics and other data that might help hotels to make better decisions. It included data that we already had, data that was requested by our hotels, data that our competitors provided and some new ideas.
+        I started off by creating a mindmap of all scores, metrics, events and other interesting pieces of information that might help hotels to make better decisions. It included data that we already had, data that was requested by our hotels, data that our competitors provided and some new ideas.
       </p>
 
       <img class=" img-fluid" src="/projects/app-dashboard/diving-into-data-1-1920.png" alt="Mindmap of data points">
