@@ -42,8 +42,9 @@ h1 {
 }
 
 h2 {
+  text-align: center;
   color: $grey-600;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 h3 {
@@ -94,10 +95,6 @@ li {
   margin-bottom: 0.5rem;
 }
 
-.section-blue h3 {
-  color: $white;
-}
-
 .btn {
   font-weight: bold;
   font-family: "Montserrat";
@@ -116,7 +113,7 @@ li {
   color: white;
   fill: white;
   background-color: $accent;
-  margin: ($spacer * 3) auto 0 auto;
+  margin: ($spacer * 2) auto 0 auto;
   border: 2px solid transparent;
 
   &:hover, &:focus  {

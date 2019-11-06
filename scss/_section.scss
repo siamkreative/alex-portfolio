@@ -7,15 +7,18 @@
   position: relative;
   overflow: hidden;
 
+  h5 {
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+  }
+  
   .section-subtitle {
     font-size: 1.25rem;
     font-weight: bold;
     text-transform: uppercase;
     color: $grey-400;
   }
-  .section-subtitle-blue {
-    color: $blue-400;
-  }
+  
 
   .section-img {
     position: absolute;
@@ -34,11 +37,28 @@
 }
 
 .section-blue {
-  color: $white;
   background-color: $primary;
   background-image: linear-gradient(to right,$primary 70%, $blue-600 75%, $blue-600);
+  h5 {
+    color: $blue-400;
+  }
+}
+
+.section-green {
+  background-color: #4F8587;
+  background-image: linear-gradient(to right,#4F8587 70%, #9ED8D7 75%, #9ED8D7);
+  h5 {
+    color: #9ED8D7;
+  }
+}
+
+.section-dark {
   background-position-x: 100%;
 
+  p, h3 {
+  color: $white;
+  }
+  
   .section-img {
     left: 50%;
     right: inherit;
@@ -70,7 +90,6 @@
 
   h2 {
     position: relative;
-    text-align: center;    
 
     svg {
       background-color: #fff;
@@ -136,7 +155,7 @@
 
 @include media-breakpoint-up(md) {
   .section {
-    padding: 8rem 0;
+    padding: 5rem 0 5rem 0;
 
     h2 {
       font-size: 3rem;

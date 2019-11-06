@@ -3,45 +3,21 @@
     <div class="hero">
       <h1 class="font-weight-bold">Alexander Fandén</h1>
       <p class="lead">
-        A UX & UI Designer based in Bangkok, Thailand.
+        A UX & UI Designer from based in Bangkok, Thailand.
         <br />Scroll down to see some of my lastest work.
       </p>
     </div>
-
-    <!-- 
-        <div class="section section-blue work">
-        <img src="/projects/bg_project_agoda-connect-375@2x.jpg" alt="Performance and insights feed" width="750" height="496" class="img-fluid d-block d-md-none">
-        <img src="/projects/bg_project_agoda-connect-1920.jpg" alt="Performance and insights feed" width="1010" height="600" class="d-none d-md-block section-img">
-        <div class="container">
-            <div class="row">
-            <div class="col-md-6">
-                <div class="section-subtitle section-subtitle-blue">App</div>
-                <h3>
-                    Performance and insights feed
-                </h3>
-                <p>Some text.</p>
-                <router-link to=app-dashboard class="btn btn-primary">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" width="0.75em" height="0.75em">
-                    <use xlink:href="#icon_plus"></use>
-                    </svg> Read more
-                </router-link>
-            </div>
-            </div>
-        </div>
-        </div> 
-    -->
-
-    <div class="section section-blue work">
+    <!-- <div class="section section-dark section-green work">
       <img
         src="/projects/bg_project_agoda-connect-375@2x.jpg"
-        alt="Agoda connect"
+        alt="Performance and insights feed"
         width="750"
         height="496"
         class="img-fluid d-block d-md-none"
       />
       <img
-        src="/projects/bg_project_agoda-connect-1920.jpg"
-        alt="Agoda connect"
+        src="/projects/bg_project_app-dashboard-1920.jpg"
+        alt="Performance and insights feed"
         width="1010"
         height="600"
         class="d-none d-md-block section-img"
@@ -49,10 +25,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="section-subtitle section-subtitle-blue">App</div>
-            <h3>Agoda connect</h3>
-            <p>Manage your hotel on the go! With the Agoda Connect app, hotels all over the world can create promotions, update rates, add allotment and see who’s checking in and out of the hotel.</p>
-            <router-link to="/agoda-connect" class="btn btn-primary">
+            <h5>App</h5>
+            <h3>Performance and insights feed</h3>
+            <p>Keep track of everything that’s going on at your hotel! This brand new feed gives hotels on Agoda.com the ability to review their performance and keep track of recent activities from Agoda guests.</p>
+            <router-link to="app-dashboard" class="btn btn-primary">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -66,8 +42,7 @@
           </div>
         </div>
       </div>
-    </div>
-
+    </div>-->
     <div class="section work">
       <img
         src="/projects/bg_project_enterprise-ui-375@2x.jpg"
@@ -86,7 +61,7 @@
       <div class="container">
         <div class="row justify-content-end">
           <div class="col-md-6">
-            <div class="section-subtitle">Design system</div>
+            <h5>Design system</h5>
             <h3>Enterprise UI</h3>
             <p>A comprehensive design system designed and built from ground up. The Enterprise UI design system makes it faster for both designers and developers to build a better and more cohesive system. Designed for web and app.</p>
             <router-link to="/enterprise-ui" class="btn btn-primary">
@@ -104,8 +79,44 @@
         </div>
       </div>
     </div>
+    <div class="section section-dark section-blue work">
+      <img
+        src="/projects/bg_project_agoda-connect-375@2x.jpg"
+        alt="Agoda connect"
+        width="750"
+        height="496"
+        class="img-fluid d-block d-md-none"
+      />
+      <img
+        src="/projects/bg_project_agoda-connect-1920.jpg"
+        alt="Agoda connect"
+        width="1010"
+        height="600"
+        class="d-none d-md-block section-img"
+      />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>App</h5>
+            <h3>Agoda connect</h3>
+            <p>Manage your hotel on the go! With the Agoda Connect app, hotels all over the world can create promotions, update rates, add allotment and see who’s checking in and out of the hotel.</p>
+            <router-link to="/agoda-connect" class="btn btn-primary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                class="icon"
+                width="0.75em"
+                height="0.75em"
+              >
+                <use xlink:href="#icon_plus" />
+              </svg> Read more
+            </router-link>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <div class="section section-blue work">
+    <!-- <div class="section section-dark section-blue work">
       <img
         src="/projects/bg_project_dashboard-375@2x.jpg"
         alt="Dashboard"
@@ -140,58 +151,52 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
 
     <div class="section section-narrow" id="about">
       <div class="container">
         <h2>About</h2>
-        <p>I am a UI/UX designer from Sweden, based in Bangkok, Thailand. I design beautiful experiences for both mobile and web. Currently, I’m designing the enterprise systems at Agoda - helping hotels all over the world to sell rooms easier and quicker than ever before.</p>
-        <p>Before joining Agoda, I designed and lead the development of market-leading web applications for the real estate market in Scandinavia, US and Australia.</p>
-        <div class="row">
-          <div class="col-md-6">
-            <h4>Tools I like</h4>
-            <ul>
-              <li>Sketch</li>
-              <li>Abstract</li>
-              <li>Invision</li>
-              <li>Zeplin</li>
-              <li>Balsamiq Mockups</li>
-              <li>Adobe Photoshop</li>
-              <li>Slack</li>
-              <li>Jira</li>
-              <li>Github</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <h4>Things I like</h4>
-            <h5>UX</h5>
-            <ul>
-              <li>
-                Usability and Accessibility
-                <br />
-                <span class="subtle-text">WCAG 2.0</span>
-              </li>
-              <li>
-                Concept development
-                <br />
-                <span class="subtle-text">Ideation, Sketching, Wireframing</span>
-              </li>
-              <li>Low and hi-fidelity prototyping</li>
-              <li>User testing</li>
-              <li>Design sprints</li>
-            </ul>
-            <h5>UI</h5>
-            <ul>
-              <li>
-                Multi-device experience
-                <br />
-                <span class="subtle-text">Desktop, Tablet, Mobile, VR</span>
-              </li>
-              <li>Responsive Web</li>
-              <li>Mobile first</li>
-              <li>Touch friendly</li>
-              <li>Icons</li>
-            </ul>
+        <p
+          style="text-align:center;"
+        >I am a UI/UX designer from Sweden, based in Bangkok, Thailand. I'm currently designing enterprise systems at Agoda - helping hotels all over the world to sell rooms easier and quicker than ever before.</p>
+        <p
+          style="text-align:center;"
+        >Before joining Agoda, I designed and lead the development of market-leading web applications for the real estate market in Scandinavia, US and Australia.</p>
+      </div>
+      <div class="quick-facts">
+        <div class="container">
+          <div class="row info">
+            <div class="col-3">
+              <span style="font-weight:bold;">Tools</span>
+              <br />Sketch
+              <br />Abstract
+              <br />Invision
+              <br />Zeplin
+              <br />Balsamiq Mockups
+            </div>
+            <div class="col-3">
+              <br />Principle
+              <br />Adobe Photoshop
+              <br />Slack
+              <br />Jira
+              <br />Github
+            </div>
+            <div class="col-3">
+              <span style="font-weight:bold;">UX</span>
+              <br />Usability and Accessibility
+              <br />Ideation and wireframing
+              <br />Omni channel
+              <br />Prototyping
+              <br />User testing
+            </div>
+            <div class="col-3">
+              <span style="font-weight:bold;">UI</span>
+              <br />Design Systems
+              <br />Desktop, mobile, tablet
+              <br />Responsive Web
+              <br />Mobile first
+              <br />Touch friendly
+            </div>
           </div>
         </div>
       </div>
@@ -200,7 +205,7 @@
     <div class="section section-narrow" id="contact">
       <div class="container">
         <h2>Get in touch</h2>
-        <p>
+        <p style="text-align:center;">
           Reach me on
           <a href="https://www.linkedin.com/in/alexfanden/">
             Linked
