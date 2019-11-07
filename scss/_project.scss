@@ -57,7 +57,7 @@ video {
 
 .quick-facts {
   background-color: $grey-100;
-  padding:2.5rem 0 2.5rem 0;
+  padding:2.5rem 0 1rem 0;
   margin:2.5rem 0 3rem 0;
 }
 
@@ -90,5 +90,8 @@ video {
 @include media-breakpoint-down(sm) {
   .project {
     margin-top: -1rem;
+  }
+  .quick-facts {
+    padding-left: 1rem;
   }
 }

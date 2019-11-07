@@ -271,38 +271,38 @@
             <div class="quick-facts">
           <div class="container">
             <div class="row info">
-              <div class="col-3">
+              <div class="col-md-3 col-sm-6">
                 Duration<br>
                 <span style="font-weight:bold;">
-                  10 months
+                  10 months<br><br>
                 </span>
               </div>
-              <div class="col-3">
+              <div class="col-md-3 col-sm-6">
                 Team<br>
                 <span style="font-weight:bold;">Alexander Fandén</span> (UX Design)<br>
                 <span style="font-weight:bold;">Trey Hurst</span> (UX Research)<br>
                 <span style="font-weight:bold;">Muhammad Athar</span> (Prototyper)<br>
                 <span style="font-weight:bold;">Wesley Hsu</span> (Copywriter)<br>
-                <span style="font-weight:bold;">Ido Hertz</span> (Product Owner)<br>
+                <span style="font-weight:bold;">Ido Hertz</span> (Product Owner)<br><br>
               </div>
-              <div class="col-3">
+              <div class="col-md-3 col-sm-6">
                 Tools I used<br>
                 <span style="font-weight:bold;">
                   Whimsical<br>
                   Sketch<br>
                   InVision<br>
                   Google Docs<br>
-                  Jira
+                  Jira<br><br>
                 </span>
               </div>
-              <div class="col-3">
+              <div class="col-md-3 col-sm-6">
                 Markets visited<br>
                 <span style="font-weight:bold;">
                   Thailand<br>
                   Philippines<br>
                   Japan<br>
                   Taiwan<br>
-                  Malaysia
+                  Malaysia<br><br>
                 </span>
               </div>
             </div>
