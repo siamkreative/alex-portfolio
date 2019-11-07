@@ -1,10 +1,10 @@
 <template>
   <div class="index">
     <div class="hero">
-      <h1 class="font-weight-bold">Alexander Fandén</h1>
+      <h1>Alexander Fandén</h1>
       <p class="lead">
-        A UX & UI Designer from based in Bangkok, Thailand.
-        <br />Scroll down to see some of my lastest work.
+        UX & UI Designer at Agoda, based in Bangkok.
+        <br />Scroll down to see my lastest work.
       </p>
     </div>
     <!-- <div class="section section-dark section-green work">

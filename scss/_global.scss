@@ -157,18 +157,35 @@ ul {
 }
 
 @include media-breakpoint-down(md) {
+
+  .lead {
+    font-size: 1.5rem;
+  }
+
   .container-fluid {
     padding-left:3rem;
     padding-right:3rem;
   }
-  .btn {
+
+}
+
+
+
+@include media-breakpoint-down(sm) {
+  h1 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1rem;
+    margin-bottom:0rem;
+  }
+
+    .btn {
     display: block;
     width: 100%;
     padding: .66rem;
   }
-}
 
-@include media-breakpoint-down(sm) {
   .container-fluid {
     padding-left:2rem;
     padding-right:2rem;
@@ -177,5 +194,9 @@ ul {
     &:before, &:after {
       content: none;
     }
+  }
+
+  #contact {
+    margin-bottom: 3rem;
   }
 }
