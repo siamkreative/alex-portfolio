@@ -166,36 +166,44 @@
       <div class="quick-facts">
         <div class="container">
           <div class="row info">
-            <div class="col-3">
+            <div class="col-md-3 col-sm-6">
               <span style="font-weight:bold;">Tools</span>
               <br />Sketch
               <br />Abstract
               <br />Invision
               <br />Zeplin
               <br />Balsamiq Mockups
+              <br />
+              <br />
             </div>
-            <div class="col-3">
+            <div class="col-md-3 col-sm-6">
               <br />Principle
               <br />Adobe Photoshop
               <br />Slack
               <br />Jira
               <br />Github
+              <br />
+              <br />
             </div>
-            <div class="col-3">
+            <div class="col-md-3 col-sm-6">
               <span style="font-weight:bold;">UX</span>
               <br />Usability and Accessibility
               <br />Ideation and wireframing
               <br />Omni channel
               <br />Prototyping
               <br />User testing
+              <br />
+              <br />
             </div>
-            <div class="col-3">
+            <div class="col-md-3 col-sm-6">
               <span style="font-weight:bold;">UI</span>
               <br />Design Systems
               <br />Desktop, mobile, tablet
               <br />Responsive Web
               <br />Mobile first
               <br />Touch friendly
+              <br />
+              <br />
             </div>
           </div>
         </div>

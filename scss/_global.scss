@@ -150,6 +150,12 @@ ul {
   opacity: 0;
 }
 
+.quick-facts {
+  background-color: $grey-100;
+  padding:2.5rem 0 1rem 0;
+  margin:2.5rem 0 3rem 0;
+}
+
 @include media-breakpoint-down(md) {
   .container-fluid {
     padding-left:3rem;
