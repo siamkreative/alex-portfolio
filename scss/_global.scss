@@ -22,14 +22,6 @@ body {
   }
 }
 
-@include media-breakpoint-down(sm) {
-  footer .logo {
-    &:before, &:after {
-      content: none;
-    }
-  }
-}
-
 h1, h2, h3, h4, h5, h6, .btn {
   font-weight: bold;
   font-family: "Montserrat";
@@ -146,14 +138,6 @@ li {
   
 }
 
-@include media-breakpoint-down(md) {
-  .btn {
-    display: block;
-    width: 100%;
-    padding: .66rem;
-  }
-}
-
 ul {
   padding:0;
 }
@@ -164,4 +148,28 @@ ul {
 
 .fade-enter, .fade-leave-to {
   opacity: 0;
+}
+
+@include media-breakpoint-down(md) {
+  .container-fluid {
+    padding-left:3rem;
+    padding-right:3rem;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    padding: .66rem;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .container-fluid {
+    padding-left:2rem;
+    padding-right:2rem;
+  }
+  footer .logo {
+    &:before, &:after {
+      content: none;
+    }
+  }
 }
