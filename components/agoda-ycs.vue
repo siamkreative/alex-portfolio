@@ -1,8 +1,8 @@
 <template>
-  <div class="project-bg" style="background-image: url('/projects/bg-agoda-connect-1920.jpg')">
+  <div class="project-bg" style="background-image: url('/projects/bg-agoda-ycs-1920.jpg')">
     <section class="container-fluid project">
       <h4>App</h4>
-      <h1>Agoda Connect</h1>
+      <h1>Agoda YCS</h1>
       <p>
         <span id="project-byline">
           <span
@@ -25,16 +25,8 @@
       <p>After launching the MVP version we developed more features as well as improving existing functionality.</p>
       <p>Whenever we change existing features we run A/B tests to assure that we only release better experiences. This oftentimes leads to fine-tuning and tweaking the designs before arriving at a desired solution.</p>
 
-      <img
-        class="project-img img-fluid"
-        src="/projects/img_agoda-connect_1-1920.png"
-        alt="Agoda Connect"
-      />
-      <img
-        class="project-img img-fluid"
-        src="/projects/img_agoda-connect_2-1920.png"
-        alt="Agoda Connect"
-      />
+      <img class="project-img img-fluid" src="/projects/img_agoda-ycs_1-1920.png" alt="Agoda YCS" />
+      <img class="project-img img-fluid" src="/projects/img_agoda-ycs_2-1920.png" alt="Agoda YCS" />
 
       <div class="text-center">
         <router-link to="/" class="btn btn-primary">
@@ -55,7 +47,7 @@
 
 <script>
 export default {
-  name: "agodaConnect"
+  name: "agodaYCS"
 };
 </script>
 

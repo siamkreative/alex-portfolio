@@ -7,9 +7,9 @@
         <br />Scroll down to see my lastest work.
       </p>
     </div>
-    <!-- <div class="section section-dark section-green work">
+    <div class="section section-dark section-green work">
       <img
-        src="/projects/bg_project_agoda-connect-375@2x.jpg"
+        src="/projects/bg_project_app-dashboard-375@2x.jpg"
         alt="Performance and insights feed"
         width="750"
         height="496"
@@ -42,7 +42,7 @@
           </div>
         </div>
       </div>
-    </div>-->
+    </div>
     <div class="section work">
       <img
         src="/projects/bg_project_enterprise-ui-375@2x.jpg"
@@ -81,15 +81,15 @@
     </div>
     <div class="section section-dark section-blue work">
       <img
-        src="/projects/bg_project_agoda-connect-375@2x.jpg"
-        alt="Agoda connect"
+        src="/projects/bg_project_agoda-ycs-375@2x.jpg"
+        alt="Agoda YCS"
         width="750"
         height="496"
         class="img-fluid d-block d-md-none"
       />
       <img
-        src="/projects/bg_project_agoda-connect-1920.jpg"
-        alt="Agoda connect"
+        src="/projects/bg_project_agoda-ycs-1920.jpg"
+        alt="Agoda YCS"
         width="1010"
         height="600"
         class="d-none d-md-block section-img"
@@ -98,9 +98,9 @@
         <div class="row">
           <div class="col-md-6">
             <h5>App</h5>
-            <h3>Agoda connect</h3>
-            <p>Manage your hotel on the go! With the Agoda Connect app, hotels all over the world can create promotions, update rates, add allotment and see who’s checking in and out of the hotel.</p>
-            <router-link to="/agoda-connect" class="btn btn-primary">
+            <h3>Agoda YCS</h3>
+            <p>Manage your hotel on the go! With the YCS app, hotels all over the world can create promotions, update rates, add allotment and see who’s checking in and out of the hotel.</p>
+            <router-link to="/agoda-ycs" class="btn btn-primary">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"

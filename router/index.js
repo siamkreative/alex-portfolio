@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import home from '../components/home'
-import agodaConnect from '../components/agoda-connect'
+import agodaYCS from '../components/agoda-ycs'
 import appDashboard from '../components/app-dashboard'
 import enterpriseUI from '../components/enterprise-ui'
 import dashboard from '../components/dashboard'
@@ -9,7 +9,7 @@ import dashboard from '../components/dashboard'
 Vue.use(Router)
 
 export default new Router({
-  scrollBehavior (to, from, savedPosition) {
+  scrollBehavior(to, from, savedPosition) {
     if (to.path !== '/') {
       return {
         x: 0,
@@ -26,8 +26,8 @@ export default new Router({
       component: home
     },
     {
-      path: '/agoda-connect',
-      component: agodaConnect
+      path: '/agoda-ycs',
+      component: agodaYCS
     },
     {
       path: '/enterprise-ui',
