@@ -7,7 +7,7 @@
         <br />Scroll down to see my lastest work.
       </p>
     </div>
-    <div class="section section-dark section-green work">
+    <div class="section section-dark section-green work" id="work">
       <img
         src="/projects/bg_project_app-dashboard-375@2x.jpg"
         alt="Performance and insights feed"
