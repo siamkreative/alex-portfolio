@@ -3,7 +3,7 @@
     <section class="container-fluid project">
       <h4>APP</h4>
       <h1>Performance and insights feed</h1>
-      <p><span id="project-byline"><span id="project-byline-content">Published on 1 November, 2019&nbsp;&nbsp;•&nbsp;&nbsp;14 minutes read</span></span></p>
+      <p><span id="project-byline"><span id="project-byline-content">Published on 24 November, 2019&nbsp;&nbsp;•&nbsp;&nbsp;14 minutes read</span></span></p>
       <p>YCS is an enterprise tool where hotels can manage rates and allotment, bookings, promotions and much more. The YCS app was launched early 2018 with a limited set of features. During 2019 we set out to expand on the app and build out some of the wanted features.
       </p>
       <p>Our goal with this project was to provide an overview of hotel performance and operations, thus enabling hotels to make better decisions and accelerate their business with Agoda.
