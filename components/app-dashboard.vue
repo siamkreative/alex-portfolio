@@ -1,5 +1,9 @@
 <template>
+  
   <div class="project-bg" style="background-image: url('/projects/app-dashboard/project-hero-1920.png')">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
     <section class="container-fluid project">
       <h4>APP</h4>
       <h1>Performance and insights feed</h1>

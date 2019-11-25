@@ -20,3 +20,5 @@ const scroll = new SmoothScroll('[data-scroll]', {
 
 // Copyright info
 console.log('Built with love by YOSA https://yosadigital.com')
+
+
