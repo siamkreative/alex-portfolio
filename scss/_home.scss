@@ -1,0 +1,29 @@
+.hero {
+  padding-top: 30vh;
+}
+
+a .proj-text p {
+  font-weight: 300;
+}
+
+.btn-text,
+.project-intro h3 {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.project-intro {
+  display: flex;
+}
+
+.proj-img {
+  background-color: red;
+  background-size: cover;
+  margin-right: $xl;
+  flex: 20%;
+}
+
+.proj-text {
+  flex: 80%;
+}

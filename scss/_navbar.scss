@@ -1,10 +1,14 @@
 .navbar {
-  background-color: rgba(255,255,255,0.90);
+  background-color: rgba(255, 255, 255, 0.90);
   box-shadow: 0px 5px 10px 0px rgba($grey-500, 0.10);
-  .logo {   
-    &:hover, &:focus {
+
+  .logo {
+
+    &:hover,
+    &:focus {
       opacity: 0.9;
     }
+
     svg {
       color: $grey-500;
       opacity: 0.5;
@@ -13,16 +17,19 @@
 }
 
 .btn-text {
-  fill: $grey-500;
-  text-transform: uppercase;
-  &:hover, &:focus {
+  fill: $accent;
+
+  &:hover,
+  &:focus {
     color: darken($grey-500, 15%);
     fill: darken($grey-500, 15%);
   }
 }
 
+.nav-item {}
+
 li {
-  margin: 0.5rem 0;
+  margin: 0.5rem;
 }
 
 @include media-breakpoint-down(sm) {
@@ -30,8 +37,9 @@ li {
     .navbar-nav {
       flex-direction: inherit;
     }
-  
+
     .logo {
+
       &:before,
       &:after {
         color: rgba(255, 255, 255, 0);
@@ -39,6 +47,7 @@ li {
     }
   }
 }
+
 @include media-breakpoint-up(sm) {
   .navbar {
     padding-top: $spacer;
