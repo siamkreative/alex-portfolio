@@ -2,7 +2,7 @@
 .progress-container {
   width: 100%;
   height: 4px;
-  position: fixed;
+  position:fixed;
 }
 
 /* The progress bar (scroll indicator) */
@@ -13,32 +13,22 @@
 }
 
 .project-bg {
-  background-size: cover;
-  background-position: center bottom;
+  background-size: contain;
+  background-position: 50% 0%;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 512px;
-  position: absolute;
-  z-index: -100;
 }
 
 .project {
   padding-top: 30vh;
   max-width: 1134px;
 
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  p, h1, h2, h3, h4, h5, h6 {
     max-width: 728px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  h5 {
+   h5 {
     font-size: 1rem;
     color: $grey-600;
     text-transform: uppercase;
@@ -54,7 +44,7 @@
 #project-byline-content {
   -ms-transform: skewX(10deg);
   -webkit-transform: skewX(10deg);
-  transform: skewX(10deg);
+  transform: skewX(10deg);  
   display: inline-block;
 }
 
@@ -79,58 +69,30 @@ video {
   margin: 2rem auto 2rem;
 }
 
-.fact-items {
-  display: flex;
-  color: $grey-500;
-
-  h5 {
-    font-family: 'Roboto Slab';
-  }
-}
-
-.fact-item {
-  flex: 1;
-  margin-right: $xl;
-
-  h5 {
-    margin-bottom: $m;
-  }
-
-  p {
-    margin: $xs 0;
-  }
-
-  p img {
-    display: inline;
-    margin: 0 $xs 0 0;
-    vertical-align: -2px;
-  }
-}
-
-
 @include media-breakpoint-down(md) {
   h1 {
     font-size: 3rem;
   }
-
-
+  h4 {
+    font-size: 1.5rem;
+    margin-bottom:0.5rem;
+  }
   .project {
     padding-top: 20vh;
-  }
+}
 }
 
 @include media-breakpoint-down(sm) {
   .project {
     padding-top: 8vh;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .project {
     margin-top: -1rem;
   }
-
-  .fact-items {
-    flex-flow: column;
-  }
-
-  .fact-item+.fact-item {
-    margin-top: $xl;
-
+  .quick-facts {
+    padding-left: 1rem;
   }
 }

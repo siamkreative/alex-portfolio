@@ -1,33 +1,18 @@
 .footer {
-  background-color: $grey-600;
-  padding: $s;
-  /* .logo {
-    color: $grey-200;
+  background-color: $primary;
+  padding: ($spacer * 2);
+
+  .logo {
+    color: #fff;
     opacity: 1;
 
-    &:hover,
-    &:focus {
+    &:hover, &:focus {
       opacity: 0.9;
     }
 
     &:before,
     &:after {
       color: #ebf2f6;
-    }
-  } */
-}
-
-.footer-content {
-  display: flex;
-  max-width: 450px;
-  margin: 0 auto;
-
-  a {
-    flex: 1;
-
-    &:hover,
-    &:focus {
-      opacity: 0.8;
     }
   }
 }
