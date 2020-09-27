@@ -1,10 +1,15 @@
 body {
-  padding-top: 6rem;
-  color: $grey-500;
+  color: $grey-600;
   font-family: 'Nunito', sans-serif;
 }
 
+.sticky-header {
+  top: 6rem;
+  position: relative;
+}
+
 .logo {
+
   &:before,
   &:after {
     text-transform: uppercase;
@@ -13,80 +18,94 @@ body {
 
   &:before {
     content: 'Alexander';
-    margin-right: 1rem;
+    margin-right: $s;
   }
 
   &:after {
     content: 'Fandén';
-    margin-left: 1rem;
+    margin-left: $s;
   }
 }
 
-h1, h2, h3, h4, h5, h6, .btn {
+h1,
+h2,
+h3 {
   font-weight: bold;
-  font-family: "Montserrat";
+  font-family: "Roboto Slab";
+}
+
+
+h4,
+h5,
+h6 {
+  font-weight: bold;
 }
 
 h1 {
-  color: $grey-600;
-  font-size:4.5rem;
+  font-size: $xxxl;
   margin-bottom: 2rem;
 }
 
 h2 {
   text-align: center;
-  color: $grey-600;
+  font-size: $xxl;
   margin-bottom: 1rem;
 }
 
 h3 {
-  font-size: 3rem;
-  color: $blue-600;
+  font-size: $xl;
+  margin-bottom: $m;
 }
 
 h4 {
-  font-size:2rem;
-  line-height: 2rem;
-  color: $grey-400;
+  font-size: 1.125rem;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  text-transform: uppercase;
+
 }
 
-h5 {
-  color: $grey-400;
+
+p,
+span,
+li {
+  font-family: "Nunito";
+  font-size: 1.125rem;
 }
-<<<<<<< HEAD
+
+.lead {
+  font-size: $l;
+}
 
 
 caption {
   font-size: 0.875rem;
   color: $grey-500;
   padding: 0 0 2rem 0;
-=======
-h6 {
-  margin-top: 1rem;
-  margin-bottom: 0.25rem;
->>>>>>> parent of b5a1f50... v3 design
 }
 
-p, span, li {
-  font-family: "Nunito";
+.bold {
+  font-weight: bold;
+  font-size: inherit;
 }
 
 a {
   font-weight: bold;
   color: $grey-600;
 
-  &:hover, &:focus {
-    text-decoration: underline;
+  &:hover,
+  &:focus {
+    text-decoration: none;
     box-shadow: none;
     outline: none;
   }
-  
-  &:before, &:after {
+
+  &:before,
+  &:after {
     font-weight: normal;
   }
 }
+
+
 
 .subtle-text {
   color: $grey-400;
@@ -98,8 +117,6 @@ li {
 
 .btn {
   font-weight: bold;
-  font-family: "Montserrat";
-  text-transform: uppercase;
   letter-spacing: 1px;
   color: $grey-500;
 
@@ -113,99 +130,151 @@ li {
 .btn-primary {
   color: white;
   fill: white;
+  text-transform: uppercase;
   background-color: $accent;
   margin: ($spacer * 2) auto 0 auto;
   border: 2px solid transparent;
 
-  &:hover, &:focus  {
+  &:hover,
+  &:focus {
     background-color: lighten($accent, 5%);
     border: 2px solid transparent;
-    box-shadow: 0 0.5rem 0.5rem 0 rgba(34,67,120,0.2);
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(34, 67, 120, 0.2);
   }
 
 }
 
 .work img {
-  margin:0;
+  margin: 0;
 }
 
 .btn-outline {
   border: 2px solid $grey-200;
-  
-  &:hover, &:focus {
+  text-transform: uppercase;
+
+
+  &:hover,
+  &:focus {
     border-color: $grey-300;
     color: $grey-600;
   }
 }
 
-.btn-text {
+.btn-text-org {
   border: 2px solid transparent;
+  text-transform: uppercase;
+  fill: $grey-500;
 
-  &:hover, &:focus {
-    border: 2px solid $grey-200;
+  &:hover,
+  &:focus {
+    border-color: $grey-200;
+    color: $grey-600;
+    fill: $grey-600;
   }
-  
+}
+
+.btn-text {
+  font-family: "Roboto Slab";
+  color: $accent;
 }
 
 ul {
-  padding:0;
+  padding: 0;
 }
 
-.fade-enter-active, .fade-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: opacity .4s ease-out;
 }
 
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 
 .quick-facts {
   background-color: $grey-100;
-  padding:2.5rem 0 1rem 0;
-  margin:2.5rem 0 3rem 0;
+  padding: 2.5rem 0 2rem 0;
 }
 
-@include media-breakpoint-down(md) {
+.divider {
+  display: flex;
+  margin: $xxxl auto;
 
-  .lead {
-    font-size: 1.5rem;
+  hr {
+    flex-grow: 1;
+    border-color: $grey-200;
   }
 
-  .container-fluid {
-    padding-left:3rem;
-    padding-right:3rem;
+  img {
+    height: 16px;
+    margin: 9px $s;
+    padding: 0;
   }
-
 }
 
+.container {
+  max-width: calc(900px + #{$xxxl}*2);
+  padding-left: $xxxl;
+  padding-right: $xxxl;
+}
 
+.story {
+  max-width: calc(740px + #{$xxxl}*2) !important;
+}
+
+#contact {
+  margin-bottom: $xxxl;
+
+  label {
+    font-weight: bold;
+  }
+
+  .form-control {
+    background-color: #ebf2f6;
+    border: 0;
+  }
+
+  #linkedin {
+    display: inline-block;
+    background: url('/assets/logo_linkedin.svg') no-repeat 50% 50%;
+    padding: 0 5px;
+    color: transparent;
+  }
+}
 
 @include media-breakpoint-down(sm) {
+
   h1 {
     font-size: 2rem;
   }
-  h4 {
-    font-size: 1rem;
-    margin-bottom:0rem;
-  }
 
-    .btn {
+  .btn {
     display: block;
     width: 100%;
     padding: .66rem;
   }
 
-  .container-fluid {
-    padding-left:2rem;
-    padding-right:2rem;
+  .divider {
+    margin: 3rem auto;
+
   }
+
+  .container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .project-intro {
+    flex-direction: row;
+  }
+
   footer .logo {
-    &:before, &:after {
+
+    &:before,
+    &:after {
       content: none;
     }
   }
 
-  #contact {
-    margin-bottom: 3rem;
-  }
 }
