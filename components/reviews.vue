@@ -31,7 +31,8 @@
         maintain a good score and be responsive to both positive and negative feedback from guests.
       </p>
 
-      <img class="img-fluid" src="/projects/app-dashboard/initial-research-3-1920.png" alt="">
+      <img class="img-fluid" src="/projects/reviews/agoda-reviews.png" alt="reviews on agoda.com">
+      <!-- <caption>Review score for a hotel on agoda.com</caption> -->
 
       <p>We were already offering a way to manage reviews via our desktop website, so the scope of this project was
         pretty straightforward - bring existing content and features to the app.</p>
@@ -55,12 +56,12 @@
         </ul>
       </p>
 
-      <img class="img-fluid" src="/projects/app-dashboard/initial-research-3-1920.png" alt="">
-      <img class="img-fluid" src="/projects/app-dashboard/initial-research-3-1920.png" alt="">
+      <img class="img-fluid" src="/projects/reviews/customer-review.png" alt="">
+      <img class="img-fluid" src="/projects/reviews/ycs-review.png" alt="">
 
       <p>As I was exploring both user flows I added all data points and features to a mindmap, using Whimsical. </p>
 
-      <img class="img-fluid" src="/projects/app-dashboard/initial-research-3-1920.png" alt="">
+      <img class="img-fluid" src="/projects/reviews/mindmap.png" alt="">
 
       <p>This helped me understand the existing functionality, but it didn’t tell me how well it worked. Although we
         didn’t have much room for changes in terms of functionality, there was an opportunity to improve the UX. </p>
@@ -96,7 +97,7 @@
       <p>All in all, this involves 3 internal teams and can take up to 2 weeks to resolve. 2 weeks is a long time for
         something so simple, and it often leads to frustration from our hotels. </p>
 
-      <img class="img-fluid" src="/projects/app-dashboard/initial-research-3-1920.png" alt="">
+      <!-- <img class="img-fluid" src="/projects/app-dashboard/initial-research-3-1920.png" alt=""> -->
 
       <h4>Inaccurate reviews</h4>
       <p>Sometimes the content in the reviews is not correct or out of the hotel's control. For example, a hotel might
@@ -122,13 +123,13 @@
         In the first concept, the user can toggle between reviews and a breakdown of their review score:
       </p>
 
-      <img class="img-fluid" src="/projects/app-dashboard/initial-research-3-1920.png" alt="">
+      <img class="img-fluid" src="/projects/reviews/wireframe-alt1.png" alt="">
 
       <p>
         The second concept features the review score and reviews in a dashboard-like fashion:
       </p>
 
-      <img class="img-fluid" src="/projects/app-dashboard/initial-research-3-1920.png" alt="">
+      <img class="img-fluid" src="/projects/reviews/wireframe-alt2.png" alt="">
 
       <p>
         Both concepts display the most recent reviews in a carousel and group all reviews in four different categories:
@@ -153,7 +154,7 @@
         reviews to draw more attention and increase the affordance of clicking:
       </p>
 
-      <div class="container">
+    <!--   <div class="container">
         <div class="row">
           <div class="col-6">
             <img class="img-fluid" src="/projects/app-dashboard/initial-research-1-1920.png" alt="">
@@ -164,13 +165,13 @@
             <caption>After</caption>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <p>On the review page, the user had to scroll all the way down in order to respond to the review. After feedback
         from the team, we made the response input sticky at the bottom:
       </p>
 
-      <div class="container">
+     <!--  <div class="container">
         <div class="row">
           <div class="col-6">
             <img class="img-fluid" src="/projects/app-dashboard/initial-research-1-1920.png" alt="">
@@ -181,7 +182,7 @@
             <caption>After</caption>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="divider">
         <hr />
@@ -209,7 +210,7 @@
         and release it quicker.
       </p>
 
-      <img class="img-fluid" src="/projects/app-dashboard/initial-research-3-1920.png" alt="">
+      <!-- <img class="img-fluid" src="/projects/app-dashboard/initial-research-3-1920.png" alt=""> -->
 
       <div class="divider">
         <hr />
