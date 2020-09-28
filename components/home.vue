@@ -197,7 +197,7 @@
             <p>Whimsical</p>
             <p>Figma</p>
             <p>Principle</p>
-            <p>Google Docs</p>
+            <p>Notion</p>
           </span>
           <span class="fact-item">
             <h5>UX</h5>
