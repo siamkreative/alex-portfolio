@@ -28,17 +28,10 @@ export default new Router({
     {
       path: '/agoda-ycs',
       component: agodaYCS
-    }, {
-      path: '/enterprise-ui',
-      component: enterpriseUI
     },
     {
       path: '/reviews',
       component: reviews
-    },
-    {
-      path: '/dashboard',
-      component: dashboard
     },
     {
       path: '/app-dashboard',
