@@ -9,8 +9,8 @@
     <div class="container story">
       <div class="hero">
         <h1>Improving the review process for hotel partners</h1>
-        <p><span id="project-byline"><span id="project-byline-content">Published on 27 September,
-              2020&nbsp;&nbsp;•&nbsp;&nbsp;6 minutes read</span></span></p>
+        <p><span id="project-byline"><span id="project-byline-content">Published on 25 October,
+              2019&nbsp;&nbsp;•&nbsp;&nbsp;6 minutes read</span></span></p>
       </div>
       <p>YCS is an enterprise tool where hotels can manage rates and allotment, bookings, promotions and much more.
         The YCS app was launched early 2018 with a limited set of features. During 2019 we set out to expand on the
@@ -31,8 +31,8 @@
         maintain a good score and be responsive to both positive and negative feedback from guests.
       </p>
 
-      <img class="img-fluid" src="/projects/reviews/agoda-reviews.png" alt="reviews on agoda.com">
-      <!-- <caption>Review score for a hotel on agoda.com</caption> -->
+      <img class="img-fluid" src="/projects/reviews/agoda-reviews.png" alt="Hotel review summary on Agoda.com">
+      <p class="caption">Review score for a hotel on agoda.com</p>
 
       <p>We were already offering a way to manage reviews via our desktop website, so the scope of this project was
         pretty straightforward - bring existing content and features to the app.</p>
@@ -56,8 +56,8 @@
         </ul>
       </p>
 
-      <img class="img-fluid" src="/projects/reviews/customer-review.png" alt="">
-      <img class="img-fluid" src="/projects/reviews/ycs-review.png" alt="">
+      <img class="img-fluid" src="/projects/reviews/customer-review.png" alt="Review prompt for travellers">
+      <img class="img-fluid" src="/projects/reviews/ycs-review.png" alt="Review management tool for hotels">
 
       <p>As I was exploring both user flows I added all data points and features to a mindmap, using Whimsical. </p>
 
@@ -97,7 +97,11 @@
       <p>All in all, this involves 3 internal teams and can take up to 2 weeks to resolve. 2 weeks is a long time for
         something so simple, and it often leads to frustration from our hotels. </p>
 
-      <!-- <img class="img-fluid" src="/projects/app-dashboard/initial-research-3-1920.png" alt=""> -->
+      <video controls autoplay>
+        <source src="/projects/reviews/mistake.mp4" type="video/mp4">
+        <source src="/projects/reviews/mistake.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
 
       <h4>Inaccurate reviews</h4>
       <p>Sometimes the content in the reviews is not correct or out of the hotel's control. For example, a hotel might
@@ -123,13 +127,13 @@
         In the first concept, the user can toggle between reviews and a breakdown of their review score:
       </p>
 
-      <img class="img-fluid" src="/projects/reviews/wireframe-alt1.png" alt="">
+      <img class="img-fluid" src="/projects/reviews/wireframe-alt1.png" alt="Wireframes of solution with toggles">
 
       <p>
         The second concept features the review score and reviews in a dashboard-like fashion:
       </p>
 
-      <img class="img-fluid" src="/projects/reviews/wireframe-alt2.png" alt="">
+      <img class="img-fluid" src="/projects/reviews/wireframe-alt2.png" alt="wireframes of dashboard solution">
 
       <p>
         Both concepts display the most recent reviews in a carousel and group all reviews in four different categories:
@@ -154,35 +158,15 @@
         reviews to draw more attention and increase the affordance of clicking:
       </p>
 
-    <!--   <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <img class="img-fluid" src="/projects/app-dashboard/initial-research-1-1920.png" alt="">
-            <caption>Before</caption>
-          </div>
-          <div class="col-6">
-            <img class="img-fluid" src="/projects/app-dashboard/initial-research-2-1920.png" alt="">
-            <caption>After</caption>
-          </div>
-        </div>
-      </div> -->
+       <img class="img-fluid" src="/projects/reviews/app-review-before-after1.png" alt="Comparison of overview page before and after design critique">
+       <p class="caption">The first page of Reviews, before and after the design critique.</p>
+
 
       <p>On the review page, the user had to scroll all the way down in order to respond to the review. After feedback
         from the team, we made the response input sticky at the bottom:
       </p>
 
-     <!--  <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <img class="img-fluid" src="/projects/app-dashboard/initial-research-1-1920.png" alt="">
-            <caption>Before</caption>
-          </div>
-          <div class="col-6">
-            <img class="img-fluid" src="/projects/app-dashboard/initial-research-2-1920.png" alt="">
-            <caption>After</caption>
-          </div>
-        </div>
-      </div> -->
+     <img class="img-fluid" src="/projects/reviews/app-review-before-after2.png" alt="Comparison of designs before and after sticky input field was added">
 
       <div class="divider">
         <hr />
@@ -206,11 +190,13 @@
       </p>
 
       <p>We then had to prioritize which features to build as a MVP. Since responding to reviews is the most important
-        action, we decided to scrap the breakdown of review score for now. This would allow us to build out the feature
+        action, we decided to hold off with the review score breakdown for now. This would allow us to build out the feature
         and release it quicker.
       </p>
 
-      <!-- <img class="img-fluid" src="/projects/app-dashboard/initial-research-3-1920.png" alt=""> -->
+      <img class="img-fluid" src="/projects/reviews/mvp.png" alt="Review Overview and details pages">
+      <p class="caption">Updated design based on the prioritized features in the MVP.</p>
+
 
       <div class="divider">
         <hr />
@@ -248,7 +234,8 @@
         who were happy to help out with recommendations on the designs.
       </p>
 
-      <img class="img-fluid" src="/projects/reviews/reviews.jpg" alt="">
+      <img class="img-fluid full-width" src="/projects/reviews/desktop-app.png" alt="">
+      <img class="img-fluid full-width" src="/projects/reviews/reviews.jpg" alt="">
 
 
       <div class="divider">

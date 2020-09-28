@@ -2,16 +2,16 @@
   <footer class="footer text-center">
     <div class="footer-content">
       <a href="https://www.linkedin.com/in/alexfanden/" target="_blank"
-        ><img src="../../assets/share/linkedin.svg" alt=""
+        ><img src="../../assets/share/linkedin.svg" alt="My Linkedin page"
       /></a>
       <a href="https://medium.com/@alxfa" target="_blank"
-        ><img src="../../assets/share/medium.svg" alt=""
+        ><img src="../../assets/share/medium.svg" alt="My Medium page"
       /></a>
       <a href="https://dribbble.com/alxfa" target="_blank"
-        ><img src="../../assets/share/dribbble.svg" alt=""
+        ><img src="../../assets/share/dribbble.svg" alt="My Dribbble page"
       /></a>
       <a href="mailto:fanden.alex@gmail.com"
-        ><img src="../../assets/share/email.svg" alt=""
+        ><img src="../../assets/share/email.svg" alt="E-mail me"
       /></a>
     </div>
     <!-- OLD FOOTER WITH AF LOGO 
