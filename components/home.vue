@@ -134,6 +134,60 @@
         <hr />
       </div>
 
+      <div id="dribbble">
+        <a
+          class="dribbble-video"
+          href="https://dribbble.com/shots/8931332-Performance-scores-for-hotels"
+          target="_blank"
+        >
+          <video autoplay loop>
+            <source
+              src="/projects/dribbble/dribbble-post-1.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <div class="dribbble-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#icon_dribbble" />
+            </svg>
+          </div>
+        </a>
+        <div class="dribbble-video">
+          <video autoplay loop>
+            <source src="/projects/dribbble/week-full.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <a
+          class="dribbble-video"
+          href="https://dribbble.com/shots/13992275-Calendar-interaction"
+          target="_blank"
+        >
+          <video autoplay loop>
+            <source src="/projects/dribbble/calendar.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="dribbble-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#icon_dribbble" />
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      <div class="divider">
+        <hr />
+        <img src="../assets/logo.svg" alt="" />
+        <hr />
+      </div>
+
       <div id="contact">
         <h2>Get in touch</h2>
         <p style="text-align: center">

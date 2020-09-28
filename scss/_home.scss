@@ -15,6 +15,7 @@ a .proj-text p {
 
 .project-intro {
   display: flex;
+
 }
 
 .proj-img {
@@ -27,4 +28,55 @@ a .proj-text p {
 
 .proj-text {
   flex: 80%;
+}
+
+#dribbble {
+  display: flex;
+
+  video {
+    border-radius: $s;
+    margin: 0;
+
+
+  }
+}
+
+.dribbble-video {
+  position: relative;
+  margin-right: $l;
+
+
+  &:hover {
+    -webkit-filter: sepia(100%) hue-rotate(295deg) contrast(90%) saturate(150%);
+    filter: sepia(100%) hue-rotate(295deg) contrast(90%) saturate(150%);
+  }
+}
+
+.dribbble-video:last-child {
+  margin-right: 0;
+}
+
+.dribbble-icon {
+  position: absolute;
+  top: $s;
+  right: $s;
+  margin: 0;
+  width: $l;
+  height: $l;
+  fill: white;
+}
+
+.dribbble-video:hover .dribbble-icon {
+  fill: $accent;
+
+}
+
+@include media-breakpoint-down(sm) {
+  #dribbble {
+    flex-direction: column;
+  }
+
+  .dribbble-video {
+    margin: $m 0;
+  }
 }
