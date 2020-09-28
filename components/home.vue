@@ -66,7 +66,7 @@
         <div class="project-intro">
           <div
             class="proj-img"
-            style="background-image: url('/projects/reviews/reviews.jpg')"
+            style="background-image: url('/projects/reviews/desktop-app.png')"
           ></div>
           <div class="proj-text">
             <h3>Improving the review process for hotel partners</h3>
