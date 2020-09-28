@@ -229,7 +229,7 @@
       </p>
       <p>
         You might also have subject matter experts that can help you with knowledge and best practices - in the
-        <router-link to="../app-dashboard">Performance and Insights feed</router-link> project I was designing a lot of
+        <router-link to="../app-dashboard" class="underline">Performance and Insights feed</router-link> project I was designing a lot of
         graphs and various data visualisations. I had limited knowledge about this so I reached out to our data analysts
         who were happy to help out with recommendations on the designs.
       </p>
@@ -248,8 +248,8 @@
         <h2>
           Get in touch
         </h2>
-        <p style="text-align:center;">Reach me on <a href="https://www.linkedin.com/in/alexfanden/">Linked<span
-              id="linkedin">In</span></a>, email me at <a href="mailto:fanden.alex@gmail.com">fanden.alex@gmail.com</a>
+        <p style="text-align:center;">Reach me on <a href="https://www.linkedin.com/in/alexfanden/" class="underline">Linked<span
+              id="linkedin">In</span></a>, email me at <a href="mailto:fanden.alex@gmail.com" class="underline">fanden.alex@gmail.com</a>
           <br>or drop a message in the form below:
         </p>
         <form action="https://formspree.io/fanden.alex@gmail.com" method="POST">

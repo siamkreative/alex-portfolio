@@ -6,11 +6,11 @@ a .proj-text p {
   font-weight: 300;
 }
 
-.btn-text,
-.project-intro h3 {
-  &:hover {
-    text-decoration: underline;
-  }
+
+.project-intro:hover h3,
+.project-intro:focus h3 {
+  text-decoration: underline;
+
 }
 
 .project-intro {
@@ -46,7 +46,8 @@ a .proj-text p {
   margin-right: $l;
 
 
-  &:hover {
+  &:hover,
+  &:focus {
     -webkit-filter: sepia(100%) hue-rotate(295deg) contrast(90%) saturate(150%);
     filter: sepia(100%) hue-rotate(295deg) contrast(90%) saturate(150%);
   }
@@ -66,6 +67,7 @@ a .proj-text p {
   fill: white;
 }
 
+.dribbble-video:hover .dribbble-icon,
 .dribbble-video:hover .dribbble-icon {
   fill: $accent;
 

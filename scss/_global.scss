@@ -96,6 +96,16 @@ a {
   }
 }
 
+.underline:hover,
+.underline:focus {
+  text-decoration: underline;
+}
+
+.underline-h3:hover h3,
+.underline-h3:focus h3 {
+  text-decoration: underline;
+}
+
 .subtle-text {
   color: $grey-400;
 }

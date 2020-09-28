@@ -25,7 +25,7 @@
         <hr />
       </div>
 
-      <router-link to="/app-dashboard">
+      <router-link to="/app-dashboard" class="underline-h3">
         <div class="project-intro">
           <div
             class="proj-img"
@@ -62,7 +62,7 @@
         <hr />
       </div>
 
-      <router-link to="/reviews">
+      <router-link to="/reviews" class="underline-h3">
         <div class="project-intro">
           <div
             class="proj-img"
@@ -97,7 +97,7 @@
         <hr />
       </div>
 
-      <router-link to="/agoda-ycs">
+      <router-link to="/agoda-ycs" class="underline-h3">
         <div class="project-intro">
           <div
             class="proj-img"
@@ -192,11 +192,13 @@
         <h2>Get in touch</h2>
         <p style="text-align: center">
           Reach me on
-          <a href="https://www.linkedin.com/in/alexfanden/">
+          <a href="https://www.linkedin.com/in/alexfanden/" class="underline">
             Linked<span id="linkedin">In</span> </a
           >, email me at
-          <a href="mailto:fanden.alex@gmail.com">fanden.alex@gmail.com</a> or
-          drop a message in the form below:
+          <a href="mailto:fanden.alex@gmail.com" class="underline"
+            >fanden.alex@gmail.com</a
+          >
+          or drop a message in the form below:
         </p>
         <form action="https://formspree.io/fanden.alex@gmail.com" method="POST">
           <div class="row">
