@@ -141,6 +141,10 @@
               src="/projects/dribbble/dribbble-post-1.mp4"
               type="video/mp4"
             />
+            <source
+              src="/projects/dribbble/dribbble-post-1.ogg"
+              type="video/ogg"
+            />
             Your browser does not support the video tag.
           </video>
           <div class="dribbble-icon">
@@ -155,6 +159,7 @@
         <div class="dribbble-video">
           <video autoplay loop>
             <source src="/projects/dribbble/week-full.mp4" type="video/mp4" />
+            <source src="/projects/dribbble/week-full.ogg" type="video/ogg" />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -165,6 +170,7 @@
         >
           <video autoplay loop>
             <source src="/projects/dribbble/calendar.mp4" type="video/mp4" />
+            <source src="/projects/dribbble/calendar.ogg" type="video/ogg" />
             Your browser does not support the video tag.
           </video>
           <div class="dribbble-icon">
