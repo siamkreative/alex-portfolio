@@ -57,7 +57,7 @@ a .proj-text p {
   margin-right: 0;
 }
 
-.dribbble-icon {
+.dribbble-icon svg {
   position: absolute;
   top: $s;
   right: $s;
@@ -67,8 +67,8 @@ a .proj-text p {
   fill: white;
 }
 
-.dribbble-video:hover .dribbble-icon,
-.dribbble-video:hover .dribbble-icon {
+.dribbble-video:hover .dribbble-icon svg,
+.dribbble-video:hover .dribbble-icon svg {
   fill: $accent;
 
 }
