@@ -5,7 +5,7 @@
     </div>
     <div
       class="project-bg"
-      style="background-image: url('/projects/reviews/project-hero-1920.png')"
+      style="background-image: url('/projects/agoda-ycs/bg-agoda-ycs-1920.jpg')"
     ></div>
     <div class="container story">
       <div class="hero">
@@ -59,12 +59,12 @@
 
       <img
         class="project-img img-fluid"
-        src="/projects/img_agoda-ycs_1-1920.png"
+        src="/projects/agoda-ycs/img_agoda-ycs_1-1920.png"
         alt="Agoda YCS"
       />
       <img
         class="project-img img-fluid"
-        src="/projects/img_agoda-ycs_2-1920.png"
+        src="/projects/agoda-ycs/img_agoda-ycs_2-1920.png"
         alt="Agoda YCS"
       />
 

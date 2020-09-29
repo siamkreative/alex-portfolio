@@ -260,6 +260,11 @@ ul {
     padding-right: 2rem;
   }
 
+  .container {
+    padding-left: $xxl;
+    padding-right: $xxl;
+  }
+
   .project-intro {
     flex-direction: row;
   }

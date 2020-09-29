@@ -4,7 +4,7 @@
       <div class="progress-bar" id="myBar"></div>
     </div>
     <div class="project-bg" style="
-        background-image: url('/projects/reviews/project-hero-1920.png');
+        background-image: url('/projects/reviews/project-hero-1920.jpg');
       "></div>
     <div class="container story">
       <div class="hero">

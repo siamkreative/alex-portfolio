@@ -3,7 +3,7 @@
     <div
       class="project-bg"
       style="
-        background-image: url('/projects/app-dashboard/project-hero-1920.png');
+        background-image: url('/projects/app-dashboard/project-hero-1920.jpg');
       "
     ></div>
     <div class="container">
@@ -29,9 +29,7 @@
         <div class="project-intro">
           <div
             class="proj-img"
-            style="
-              background-image: url('/projects/app-dashboard/project-1-1920.png');
-            "
+            style="background-image: url('/projects/app-dashboard.jpg')"
           ></div>
           <div class="proj-text">
             <h3>Performance and insights feed</h3>
@@ -66,7 +64,7 @@
         <div class="project-intro">
           <div
             class="proj-img"
-            style="background-image: url('/projects/reviews/desktop-app.png')"
+            style="background-image: url('/projects/reviews.jpg')"
           ></div>
           <div class="proj-text">
             <h3>Improving the review process for hotel partners</h3>
@@ -101,9 +99,7 @@
         <div class="project-intro">
           <div
             class="proj-img"
-            style="
-              background-image: url('/projects/bg_project_agoda-ycs-1920.jpg');
-            "
+            style="background-image: url('/projects/agoda-ycs.jpg')"
           ></div>
           <div class="proj-text">
             <h3>Agoda YCS</h3>

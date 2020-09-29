@@ -3,9 +3,7 @@ import Router from 'vue-router'
 import home from '../components/home'
 import agodaYCS from '../components/agoda-ycs'
 import appDashboard from '../components/app-dashboard'
-import enterpriseUI from '../components/enterprise-ui'
 import reviews from '../components/reviews'
-import dashboard from '../components/dashboard'
 
 Vue.use(Router)
 
