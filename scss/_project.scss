@@ -135,4 +135,27 @@ video {
     margin-top: $xl;
 
   }
+
+  .project-intro {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+
+  .proj-img {
+    background-color: red;
+    background-size: cover;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    flex-basis: 100%;
+    height: 10rem;
+  }
+
+  .divider {}
+
+  .proj-text {
+    flex: 1;
+  }
 }
