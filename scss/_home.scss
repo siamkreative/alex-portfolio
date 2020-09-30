@@ -13,6 +13,16 @@ a .proj-text p {
 
 }
 
+.project-intro:hover .icon {
+  width: 1.1em;
+  transition-property: width;
+  transition-duration: 300ms;
+}
+
+.project-intro .icon {
+  margin-top: -2px;
+}
+
 .project-intro {
   display: flex;
 
