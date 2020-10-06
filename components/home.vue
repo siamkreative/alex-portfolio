@@ -156,13 +156,25 @@
             </svg>
           </div>
         </a>
-        <div class="dribbble-video">
+        <a
+          class="dribbble-video"
+          href="https://dribbble.com/shots/14336599-Data-visualisation-feeds"
+          target="_blank"
+        >
           <video autoplay loop>
             <source src="/projects/dribbble/week-full.mp4" type="video/mp4" />
             <source src="/projects/dribbble/week-full.ogg" type="video/ogg" />
             Your browser does not support the video tag.
           </video>
-        </div>
+          <div class="dribbble-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#icon_dribbble" />
+            </svg>
+          </div>
+        </a>
         <a
           class="dribbble-video"
           href="https://dribbble.com/shots/13992275-Calendar-interaction"
