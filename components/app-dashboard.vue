@@ -61,10 +61,16 @@
       <div class="container">
         <div class="row">
           <div class="col-6">
-            <img class="img-fluid" src="/projects/app-dashboard/initial-research-1-1920.png" alt="">
+            <picture>
+              <source srcset="/projects/app-dashboard/initial-research-1-1920.webp" type="image/webp"/> 
+              <img src="/projects/app-dashboard/initial-research-1-1920.png" alt=""/>
+            </picture>
           </div>
           <div class="col-6">
-            <img class="img-fluid" src="/projects/app-dashboard/initial-research-2-1920.png" alt="">
+            <picture>
+              <source srcset="/projects/app-dashboard/initial-research-2-1920.webp" type="image/webp"/> 
+              <img src="/projects/app-dashboard/initial-research-2-1920.png" alt=""/>
+            </picture>
           </div>
         </div>
       </div>
@@ -86,9 +92,11 @@
         </ul>
       </p>
 
-      <img class="img-fluid" src="/projects/app-dashboard/initial-research-3-1920.png"
-        alt="Roles and tasks of operational staff versus decision makers">
-
+      <picture>
+        <source srcset="/projects/app-dashboard/initial-research-3-1920.webp" type="image/webp"/> 
+        <img src="/projects/app-dashboard/initial-research-3-1920.png" alt="Roles and tasks of operational staff versus decision makers"/>
+      </picture>
+    
 <div class="divider">
         <hr />
         <img src="../assets/logo.svg" alt="" />
@@ -107,7 +115,10 @@
         requested by our hotels, data that our competitors provided and some new ideas.
       </p>
 
-      <img class=" img-fluid" src="/projects/app-dashboard/diving-into-data-1-1920.png" alt="Mindmap of data points">
+      <picture>
+        <source srcset="/projects/app-dashboard/diving-into-data-1-1920.webp" type="image/webp"/> 
+        <img src="/projects/app-dashboard/diving-into-data-1-1920.png" alt="Mindmap of data points"/>
+      </picture>
       <p>
         While the different types of data might provide some useful information on their own, we believed that we
         could generate much more meaningful insights by combining them. So, I had to come up with some formula to
@@ -122,7 +133,10 @@
         </ul>
       </p>
 
-      <img class=" img-fluid" src="/projects/app-dashboard/diving-into-data-2-1920.png" alt="Mindmap of data points">
+      <picture>
+        <source srcset="/projects/app-dashboard/diving-into-data-2-1920.webp" type="image/webp"/> 
+        <img src="/projects/app-dashboard/diving-into-data-2-1920.png" alt="Mindmap of data points"/>
+      </picture>
 
       <p>
         By comparing the data using other dimensions or time frames, we could generate new insights.
@@ -158,8 +172,10 @@
         hotel.
       </p>
 
-      <img class=" img-fluid" src="/projects/app-dashboard/early-explorations-1-1920.png"
-        alt="First iterations of the page as wireframes">
+      <picture>
+        <source srcset="/projects/app-dashboard/early-explorations-1-1920.webp" type="image/webp"/> 
+        <img src="/projects/app-dashboard/early-explorations-1-1920.png" alt="First iterations of the page as wireframes"/>
+      </picture>
 
       <p>
         The first concept we wanted to try out was a dashboard with two tabs:
@@ -181,7 +197,10 @@
         prototype with InVision.
       </p>
 
-      <img class=" img-fluid" src="/projects/app-dashboard/early-explorations-2-1920.png" alt="Mockup of tabbed design">
+      <picture>
+        <source srcset="/projects/app-dashboard/early-explorations-2-1920.webp" type="image/webp"/> 
+        <img src="/projects/app-dashboard/early-explorations-2-1920.png" alt="Mockup of tabbed design"/>
+      </picture>
 
       <h4>Bringing in the users</h4>
       <p>
@@ -190,8 +209,10 @@
         (especially “Operation”) were not clear enough.
       </p>
 
-      <img class=" img-fluid" src="/projects/app-dashboard/early-explorations-3-1920.png"
-        alt="Mockup of tabbed versus one-page approach">
+      <picture>
+        <source srcset="/projects/app-dashboard/early-explorations-3-1920.webp" type="image/webp"/> 
+        <img src="/projects/app-dashboard/early-explorations-3-1920.png" alt="Mockup of tabbed versus one-page approach"/>
+      </picture>
 
       <p>
         We renamed the tab “My feed” and designed an alternate layout that combined the performance and operations
@@ -242,7 +263,10 @@
         the line chart in the left screen below:
       </p>
 
-      <img class=" img-fluid" src="/projects/app-dashboard/accidental-insights-1-1920.png" alt="Mockup of scores">
+      <picture>
+        <source srcset="/projects/app-dashboard/accidental-insights-1-1920.webp" type="image/webp"/> 
+        <img src="/projects/app-dashboard/accidental-insights-1-1920.png" alt="Mockup of scores"/>
+      </picture>
 
       <p>
         They expected to be able to go back and forth on the time-frame in the line chart, but instead they ended up
@@ -264,8 +288,10 @@
         With these exciting insights I set out to adjust the navigation of the scores:
       </p>
 
-      <img class=" img-fluid" src="/projects/app-dashboard/accidental-insights-2-1920.png"
-        alt="Mockups of second iteration of the scores">
+      <picture>
+        <source srcset="/projects/app-dashboard/accidental-insights-2-1920.webp" type="image/webp"/> 
+        <img src="/projects/app-dashboard/accidental-insights-2-1920.png" alt="Mockups of second iteration of the scores"/>
+      </picture>
 
       <p>
         While the users found the swipe navigation easy to use, that was not what they intended to do. So I added dots
@@ -302,8 +328,10 @@
           </li>
       </p>
 
-      <img class=" img-fluid" src="/projects/app-dashboard/accidental-insights-3-1920.png"
-        alt="Mockups all key features of the new feed">
+      <picture>
+        <source srcset="/projects/app-dashboard/accidental-insights-3-1920.webp" type="image/webp"/> 
+        <img src="/projects/app-dashboard/accidental-insights-3-1920.png" alt="Mockups all key features of the new feed"/>
+      </picture>
 
 <div class="divider">
         <hr />
@@ -345,8 +373,14 @@
         Our team is usually very hesitant to introduce new colors or UI elements in our designs, but we decided that
         this was a good enough reason to introduce more colors to the palette.
       </p>
-      <img class=" img-fluid" src="/projects/app-dashboard/documentation-1.png" alt="Documentation of color usage">
-      <img class=" img-fluid" src="/projects/app-dashboard/documentation-2.png" alt="Documentation charts">
+      <picture>
+        <source srcset="/projects/app-dashboard/documentation-1.webp" type="image/webp"/> 
+        <img src="/projects/app-dashboard/documentation-1.png" alt="Documentation of color usage"/>
+      </picture>
+      <picture>
+        <source srcset="/projects/app-dashboard/documentation-2.webp" type="image/webp"/> 
+        <img src="/projects/app-dashboard/documentation-2.png" alt="Documentation charts"/>
+      </picture>
 
 <div class="divider">
         <hr />
@@ -373,8 +407,10 @@
         At the time of writing this, we’re just about to start development of the MVP version.
       </p>
 
-      <img class=" img-fluid" src="/projects/app-dashboard/documentation-3.png"
-        alt="Documentation of MVP UI components">
+      <picture>
+        <source srcset="/projects/app-dashboard/documentation-3.webp" type="image/webp"/> 
+        <img src="/projects/app-dashboard/documentation-3.png" alt="Documentation of MVP UI components"/>
+      </picture>
 
 <div class="divider">
         <hr />
@@ -430,8 +466,10 @@
             our tool in the future. Based on that we decided to cater to the savvier users.
           </p>
 
-          <img class="img-fluid" src="/projects/app-dashboard/project-1-1920.png"
-            alt="Collage of mockups from the project">
+          <picture>
+           <source srcset="/projects/app-dashboard/project-1-1920.webp" type="image/webp"/> 
+           <img src="/projects/app-dashboard/project-1-1920.png" alt="Collage of mockups from the project"/>
+          </picture>
 
           <div class="divider">
             <hr />
