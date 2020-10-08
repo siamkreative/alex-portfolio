@@ -264,7 +264,7 @@
         <div class="fact-items">
           <span class="fact-item">
             <h5>Tools I love</h5>
-            <p>Whimsical</p>
+            <p><img src="../assets/facts/whimsical.svg" alt="" />Whimsical</p>
             <p>Figma</p>
             <p>Principle</p>
             <p>Notion</p>

@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import home from '../components/home'
 import agodaYCS from '../components/agoda-ycs'
 import appDashboard from '../components/app-dashboard'
+import figma from '../components/figma'
 import reviews from '../components/reviews'
 
 Vue.use(Router)
@@ -34,6 +35,10 @@ export default new Router({
     {
       path: '/app-dashboard',
       component: appDashboard
+    },
+    {
+      path: '/figma',
+      component: figma
     }
   ]
 })
