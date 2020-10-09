@@ -30,8 +30,10 @@
         important part when travellers decide between similarly priced hotels. It’s therefore important for hotels to
         maintain a good score and be responsive to both positive and negative feedback from guests.
       </p>
-
-      <img class="img-fluid" src="/projects/reviews/agoda-reviews.png" alt="Hotel review summary on Agoda.com">
+      <picture>
+        <source srcset="/projects/reviews/agoda-reviews.webp" type="image/webp"/> 
+        <img src="/projects/reviews/agoda-reviews.png" alt="Hotel review summary on Agoda.com"/>
+      </picture>
       <p class="caption">Review score for a hotel on agoda.com</p>
 
       <p>We were already offering a way to manage reviews via our desktop website, so the scope of this project was
@@ -55,14 +57,21 @@
           <li>Hotels can see a breakdown of their review score and read and respond to reviews.</li>
         </ul>
       </p>
-
-      <img class="img-fluid" src="/projects/reviews/customer-review.png" alt="Review prompt for travellers">
-      <img class="img-fluid" src="/projects/reviews/ycs-review.png" alt="Review management tool for hotels">
+      <picture>
+        <source srcset="/projects/reviews/customer-review.webp" type="image/webp"/> 
+        <img src="/projects/reviews/customer-review.png" alt="Review prompt for travellers"/>
+      </picture>
+      <picture>
+        <source srcset="/projects/reviews/ycs-review.webp" type="image/webp"/> 
+        <img src="/projects/reviews/ycs-review.png" alt="Review management tool for hotels"/>
+      </picture>
 
       <p>As I was exploring both user flows I added all data points and features to a mindmap, using Whimsical. </p>
 
-      <img class="img-fluid" src="/projects/reviews/mindmap.png" alt="">
-
+      <picture>
+        <source srcset="/projects/reviews/mindmap.webp" type="image/webp"/> 
+        <img src="/projects/reviews/mindmap.png" alt=""/>
+      </picture>
       <p>This helped me understand the existing functionality, but it didn’t tell me how well it worked. Although we
         didn’t have much room for changes in terms of functionality, there was an opportunity to improve the UX. </p>
       <p>With limited resources for research, I tried to find people within the company who had experience with Reviews
@@ -126,14 +135,18 @@
       <p>
         In the first concept, the user can toggle between reviews and a breakdown of their review score:
       </p>
-
-      <img class="img-fluid" src="/projects/reviews/wireframe-alt1.png" alt="Wireframes of solution with toggles">
-
+      <picture>
+        <source srcset="/projects/reviews/wireframe-alt1.webp" type="image/webp"/> 
+        <img src="/projects/reviews/wireframe-alt1.png" alt="Wireframes of solution with toggles"/>
+      </picture>
       <p>
         The second concept features the review score and reviews in a dashboard-like fashion:
       </p>
 
-      <img class="img-fluid" src="/projects/reviews/wireframe-alt2.png" alt="wireframes of dashboard solution">
+      <picture>
+        <source srcset="/projects/reviews/wireframe-alt2.webp" type="image/webp"/> 
+        <img src="/projects/reviews/wireframe-alt2.png" alt="wireframes of dashboard solution"/>
+      </picture>
 
       <p>
         Both concepts display the most recent reviews in a carousel and group all reviews in four different categories:
@@ -158,7 +171,10 @@
         reviews to draw more attention and increase the affordance of clicking:
       </p>
 
-       <img class="img-fluid" src="/projects/reviews/app-review-before-after1.png" alt="Comparison of overview page before and after design critique">
+      <picture>
+        <source srcset="/projects/reviews/app-review-before-after1.webp" type="image/webp"/> 
+        <img src="/projects/reviews/app-review-before-after1.png" alt="Comparison of overview page before and after design critique"/>
+      </picture>
        <p class="caption">The first page of Reviews, before and after the design critique.</p>
 
 
@@ -166,7 +182,10 @@
         from the team, we made the response input sticky at the bottom:
       </p>
 
-     <img class="img-fluid" src="/projects/reviews/app-review-before-after2.png" alt="Comparison of designs before and after sticky input field was added">
+     <picture>
+        <source srcset="/projects/reviews/app-review-before-after2.webp" type="image/webp"/> 
+        <img src="/projects/reviews/app-review-before-after2.png" alt="Comparison of designs before and after sticky input field was added"/>
+      </picture>
 
       <div class="divider">
         <hr />
@@ -194,7 +213,10 @@
         and release it quicker.
       </p>
 
-      <img class="img-fluid" src="/projects/reviews/mvp.png" alt="Review Overview and details pages">
+      <picture>
+        <source srcset="/projects/reviews/mvp.webp" type="image/webp"/> 
+        <img src="/projects/reviews/mvp.png" alt="Review Overview and details pages"/>
+      </picture>
       <p class="caption">Updated design based on the prioritized features in the MVP.</p>
 
 
@@ -234,9 +256,14 @@
         who were happy to help out with recommendations on the designs.
       </p>
 
-      <img class="img-fluid full-width" src="/projects/reviews/desktop-app.png" alt="">
-      <img class="img-fluid full-width" src="/projects/reviews/reviews.jpg" alt="">
-
+      <picture>
+        <source srcset="/projects/reviews/desktop-app.webp" type="image/webp"/> 
+        <img src="/projects/reviews/desktop-app.png" alt=""/>
+      </picture>
+      <picture>
+        <source srcset="/projects/reviews/reviews.webp" type="image/webp"/> 
+        <img src="/projects/reviews/reviews.jpg" alt=""/>
+      </picture>
 
       <div class="divider">
         <hr />
