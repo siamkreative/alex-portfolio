@@ -40,6 +40,21 @@ a .proj-text p {
   flex: 80%;
 }
 
+picture {
+  display: flex;
+}
+
+picture img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.proj-img img {
+  margin: 0;
+
+}
+
 #dribbble {
   display: flex;
 

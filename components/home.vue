@@ -27,10 +27,10 @@
 
       <router-link to="/app-dashboard" class="underline-h3">
         <div class="project-intro">
-          <div
-            class="proj-img"
-            style="background-image: url('/projects/app-dashboard.jpg')"
-          ></div>
+          <picture class="proj-img">
+            <source srcset="/projects/app-dashboard.webp" type="image/webp" />
+            <img src="/projects/app-dashboard.jpg" />
+          </picture>
           <div class="proj-text">
             <h3>Performance and insights feed</h3>
             <p>
@@ -265,9 +265,9 @@
           <span class="fact-item">
             <h5>Tools I love</h5>
             <p><img src="../assets/facts/whimsical.svg" alt="" />Whimsical</p>
-            <p>Figma</p>
-            <p>Principle</p>
-            <p>Notion</p>
+            <p><img src="../assets/facts/figma.svg" alt="" />Figma</p>
+            <p><img src="../assets/facts/principle.svg" alt="" />Principle</p>
+            <p><img src="../assets/facts/notion.svg" alt="" />Notion</p>
           </span>
           <span class="fact-item">
             <h5>UX</h5>
