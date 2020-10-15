@@ -114,6 +114,43 @@ video {
   }
 }
 
+.thumbnail {
+
+  &:hover img,
+  &:focus img {
+    -webkit-filter: sepia(100%) hue-rotate(295deg) contrast(90%) saturate(150%);
+    filter: sepia(100%) hue-rotate(295deg) contrast(90%) saturate(150%);
+    transition: all 0.3s ease;
+
+  }
+}
+
+.thumbnail:hover .card-heading,
+.thumbnail:focus .card-heading {
+  text-decoration: underline;
+}
+
+
+.thumbnail .row {
+  border: 1px $grey-200 solid;
+  border-radius: 8px;
+  align-items: center;
+  padding: 8px;
+}
+
+.thumbnail .row picture,
+.thumbnail .row img {
+  margin: 0 8px 0 0;
+  width: 64px;
+  height: 64px;
+  display: inline;
+  border-radius: 4px;
+}
+
+.thumbnail .caption {
+  padding-bottom: 0;
+}
+
 
 @include media-breakpoint-down(md) {
   h1 {
