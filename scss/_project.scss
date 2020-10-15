@@ -4,6 +4,7 @@
   height: 4px;
   position: sticky;
   top: 6rem;
+  z-index: 1000;
 }
 
 /* The progress bar (scroll indicator) */
@@ -157,12 +158,14 @@ video {
     height: 10rem;
   }
 
-  .thumbnail {
-    border: 1px $grey-100 solid;
-  }
-
 
   .proj-text {
     flex: 1;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .progress-container {
+    top: 5rem;
   }
 }

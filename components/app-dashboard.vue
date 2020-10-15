@@ -477,9 +477,9 @@
 
 					<p>To promote design thinking and attract talented designers to Agoda, this article was published on the <span class="bold">Careers at agoda</span> and <span class="bold">Agoda Engineering and Design</span> blogs. It was also promoted on Agoda's social media acounts and LinkedIn.</p>
 
-        <div class="row thumbnail-row">
+        <div class="row">
           
-          <div class="col-6">
+          <div class="col-md-6 card-blogs">
             <a href="https://careersatagoda.com/blog/agoda-ycs-performance-insights-feed/" target="_blank" class="thumbnail">
           <div class="row no-gutters">
             <div class="col-auto">
@@ -496,7 +496,7 @@
           </a>
           </div>
           
-          <div class="col-6">
+          <div class="col-md-6 card-blogs">
           <a href="https://medium.com/agoda-engineering/designing-a-performance-and-insights-feed-for-hotels-e8725b86faaf" target="_blank" class="thumbnail">
           <div class="row no-gutters">
             <div class="col-auto">

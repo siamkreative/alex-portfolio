@@ -81,6 +81,10 @@ picture img {
   border-radius: 4px;
 }
 
+.thumbnail .caption {
+  padding-bottom: 0;
+}
+
 
 
 .proj-img img {
@@ -130,12 +134,19 @@ picture img {
 
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(xs) {
+
   #dribbble {
     flex-direction: column;
   }
 
   .dribbble-video {
     margin: $m 0;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .card-blogs {
+    margin: $s 0;
   }
 }
