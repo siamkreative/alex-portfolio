@@ -75,59 +75,46 @@
       </div>
 
       <div id="contact">
-        <h2>Get in touch</h2>
-        <p style="text-align: center">
+            <h2>
+              Get in touch
+            </h2>
+            <p style="text-align: center">
           Reach me on
-          <a href="https://www.linkedin.com/in/alexfanden/"
-            >Linked<span id="linkedin">In</span></a
+          <a href="https://www.linkedin.com/in/alexfanden/" class="underline">
+            Linked<span id="linkedin">In</span> </a
           >, email me at
-          <a href="mailto:fanden.alex@gmail.com">fanden.alex@gmail.com</a>
-          <br />or drop a message in the form below:
+          <a href="mailto:fanden.alex@gmail.com" class="underline"
+            >fanden.alex@gmail.com</a
+          >
+          or drop a message in the form below:
         </p>
-        <form action="https://formspree.io/fanden.alex@gmail.com" method="POST">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input
-                  required
-                  type="text"
-                  name="name"
-                  class="form-control"
-                  id="name"
-                />
+            <form action="https://formspree.io/fanden.alex@gmail.com" method="POST">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input required type="text" name="name" class="form-control" id="name">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input required type="email" name="_replyto" class="form-control" id="email">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea required class="form-control" name="message" id="message" rows="3"></textarea>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input
-                  required
-                  type="email"
-                  name="_replyto"
-                  class="form-control"
-                  id="email"
-                />
+              <div class="text-center">
+                <button class="btn btn-primary" type="submit">Send</button>
               </div>
-            </div>
-            <div class="col-md-12">
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea
-                  required
-                  class="form-control"
-                  name="message"
-                  id="message"
-                  rows="3"
-                ></textarea>
-              </div>
-            </div>
+            </form>
           </div>
-          <div class="text-center">
-            <button class="btn btn-primary" type="submit">Send</button>
           </div>
-        </form>
-      </div>
     </div>
   </div>
 </template>
@@ -137,4 +124,3 @@ export default {
   name: "agodaYCS",
 };
 </script>
-

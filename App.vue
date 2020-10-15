@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <appNavbar></appNavbar>
-    <transition name="fade">
+    <transition name="fade" mode="out-in">
       <router-view></router-view>
     </transition>
     <appFooter></appFooter>
@@ -9,19 +9,19 @@
 </template>
 
 <script>
-import appNavbar from './components/partials/navbar'
-import appFooter from './components/partials/footer'
+import appNavbar from "./components/partials/navbar";
+import appFooter from "./components/partials/footer";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     appNavbar,
-    appFooter
+    appFooter,
   },
-  data () {
+  data() {
     return {
-      msg: 'Welcome to Your Vue.js App!'
-    }
-  }
-}
+      msg: "Welcome to Your Vue.js App!",
+    };
+  },
+};
 </script>
