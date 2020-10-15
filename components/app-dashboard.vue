@@ -58,7 +58,6 @@
         with a diverse set of hotels, from small family-run boutique hotels in Taichung, Taiwan to larger chain hotels
         in Cebu, Philippines.</p>
 
-      <div class="container">
         <div class="row">
           <div class="col-6">
             <picture>
@@ -73,7 +72,6 @@
             </picture>
           </div>
         </div>
-      </div>
 
       <p>During our hotel visits, we interviewed the staff to understand how and when they used our system. We asked
         them to rank different features and data by importance, using card sorting.</p>
@@ -469,7 +467,53 @@
           <picture>
            <source srcset="/projects/app-dashboard/project-1-1920.webp" type="image/webp"/> 
            <img src="/projects/app-dashboard/project-1-1920.png" alt="Collage of mockups from the project"/>
-          </picture>
+					</picture>
+					
+					<!-- <div class="divider">
+						<hr />
+            <span>Published on</span>
+            <hr />
+					</div> -->
+
+					<p>To promote design thinking and attract talented designers to Agoda, this article was published on the <span class="bold">Careers at agoda</span> and <span class="bold">Agoda Engineering and Design</span> blogs. It was also promoted on Agoda's social media acounts and LinkedIn.</p>
+
+        <div class="row thumbnail-row">
+          
+          <div class="col-6">
+            <a href="https://careersatagoda.com/blog/agoda-ycs-performance-insights-feed/" target="_blank" class="thumbnail">
+          <div class="row no-gutters">
+            <div class="col-auto">
+            <picture>
+              <source srcset="/projects/app-dashboard/ext-links/blog-careersatagoda.webp" type="image/webp"/> 
+              <img src="/projects/app-dashboard/ext-links/blog-careersatagoda.png" alt=""/>
+            </picture>
+            </div>
+          <div class="col">
+          <span class="card-heading">Careers at Agoda</span><br>
+          <span class="caption">February 27, 2020</span>
+          </div>
+          </div>
+          </a>
+          </div>
+          
+          <div class="col-6">
+          <a href="https://medium.com/agoda-engineering/designing-a-performance-and-insights-feed-for-hotels-e8725b86faaf" target="_blank" class="thumbnail">
+          <div class="row no-gutters">
+            <div class="col-auto">
+            <picture>
+              <source srcset="/projects/app-dashboard/ext-links/blog-agodaengineering.webp" type="image/webp"/> 
+              <img src="/projects/app-dashboard/ext-links/blog-agodaengineering.png" alt=""/>
+            </picture>
+            </div>
+          <div class="col">
+          <span class="card-heading">Agoda Engineering & Design</span><br>
+          <span class="caption">February 7, 2020</span>
+          </div>
+          </div>
+          </a>
+          </div>
+        </div>
+          
 
           <div class="divider">
             <hr />
@@ -481,10 +525,16 @@
             <h2>
               Get in touch
             </h2>
-            <p style="text-align:center;">Reach me on <a href="https://www.linkedin.com/in/alexfanden/">Linked<span
-                  id="linkedin">In</span></a>, email me at <a
-                href="mailto:fanden.alex@gmail.com">fanden.alex@gmail.com</a> <br>or drop a message in the form below:
-            </p>
+            <p style="text-align: center">
+          Reach me on
+          <a href="https://www.linkedin.com/in/alexfanden/" class="underline">
+            Linked<span id="linkedin">In</span> </a
+          >, email me at
+          <a href="mailto:fanden.alex@gmail.com" class="underline"
+            >fanden.alex@gmail.com</a
+          >
+          or drop a message in the form below:
+        </p>
             <form action="https://formspree.io/fanden.alex@gmail.com" method="POST">
               <div class="row">
                 <div class="col-md-6">
@@ -539,43 +589,6 @@
                   <p><img src="../assets/facts/people-man.svg" alt=""/>Product Owner (Ido Hertz)</p>
                 </span>
               </div>
-
-              <!-- <div class="row info">
-                <div class="col-md-3 col-sm-6">
-                  Duration<br>
-                  <span style="font-weight:bold;">
-                    10 months<br><br>
-                  </span>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                  Team<br>
-                  <span style="font-weight:bold;">Alexander Fandén</span> (UX Design)<br>
-                  <span style="font-weight:bold;">Trey Hurst</span> (UX Research)<br>
-                  <span style="font-weight:bold;">Muhammad Athar</span> (Prototyper)<br>
-                  <span style="font-weight:bold;">Wesley Hsu</span> (Copywriter)<br>
-                  <span style="font-weight:bold;">Ido Hertz</span> (Product Owner)<br><br>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                  Tools used<br>
-                  <span style="font-weight:bold;">
-                    Whimsical<br>
-                    Sketch<br>
-                    InVision<br>
-                    Google Docs<br>
-                    Jira<br><br>
-                  </span>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                  Markets visited<br>
-                  <span style="font-weight:bold;">
-                    Thailand<br>
-                    Philippines<br>
-                    Japan<br>
-                    Taiwan<br>
-                    Malaysia<br><br>
-                  </span>
-                </div>
-              </div> -->
             </div>
           </div>
   </div>

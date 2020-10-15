@@ -157,7 +157,10 @@ video {
     height: 10rem;
   }
 
-  .divider {}
+  .thumbnail {
+    border: 1px $grey-100 solid;
+  }
+
 
   .proj-text {
     flex: 1;

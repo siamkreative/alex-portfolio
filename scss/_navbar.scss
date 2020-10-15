@@ -16,7 +16,9 @@
   }
 }
 
-.fixed-top {}
+.fixed-top {
+  position: sticky;
+}
 
 .btn-text {
   fill: $accent;
