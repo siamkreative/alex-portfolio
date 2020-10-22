@@ -1,13 +1,13 @@
 <template>
   <footer class="footer text-center">
     <div class="footer-content">
-      <a href="https://www.linkedin.com/in/alexfanden/" target="_blank"
+      <a href="https://www.linkedin.com/in/alexfanden/" rel=”noopener” target="_blank"
         ><img src="../../assets/share/linkedin.svg" alt="My Linkedin page"
       /></a>
-      <a href="https://medium.com/@alxfa" target="_blank"
+      <a href="https://medium.com/@alxfa" rel=”noopener” target="_blank"
         ><img src="../../assets/share/medium.svg" alt="My Medium page"
       /></a>
-      <a href="https://dribbble.com/alxfa" target="_blank"
+      <a href="https://dribbble.com/alxfa" rel=”noopener” target="_blank"
         ><img src="../../assets/share/dribbble.svg" alt="My Dribbble page"
       /></a>
       <a href="mailto:fanden.alex@gmail.com"
