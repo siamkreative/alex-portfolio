@@ -29,7 +29,7 @@
         <div class="project-intro">
           <picture class="proj-img">
             <source srcset="/projects/app-dashboard.webp" type="image/webp" />
-            <img src="/projects/app-dashboard.jpg" />
+            <img src="/projects/app-dashboard.jpg" alt="Collage of the dashboard UI" />
           </picture>
           <div class="proj-text">
             <h3>Performance and insights feed</h3>
@@ -62,10 +62,10 @@
 
       <router-link to="/reviews" class="underline-h3">
         <div class="project-intro">
-          <div
-            class="proj-img"
-            style="background-image: url('/projects/reviews.jpg')"
-          ></div>
+          <picture class="proj-img">
+            <source srcset="/projects/reviews.webp" type="image/webp" />
+            <img src="/projects/reviews.jpg" alt="Desktop vs mobile UI" />
+          </picture>
           <div class="proj-text">
             <h3>Improving the review process for hotel partners</h3>
             <p>
@@ -97,10 +97,10 @@
 
       <router-link to="/agoda-ycs" class="underline-h3">
         <div class="project-intro">
-          <div
-            class="proj-img"
-            style="background-image: url('/projects/agoda-ycs.jpg')"
-          ></div>
+          <picture class="proj-img">
+            <source srcset="/projects/agoda-ycs.webp" type="image/webp" />
+            <img src="/projects/agoda-ycs.jpg" alt="Agoda YCS App" />
+          </picture>
           <div class="proj-text">
             <h3>Agoda YCS</h3>
             <p>
