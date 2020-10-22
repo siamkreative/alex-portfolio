@@ -480,7 +480,7 @@
         <div class="row">
           
           <div class="col-md-6 card-blogs">
-            <a href="https://careersatagoda.com/blog/agoda-ycs-performance-insights-feed/" target="_blank" class="thumbnail">
+            <a href="https://careersatagoda.com/blog/agoda-ycs-performance-insights-feed/" rel=”noopener” target="_blank" class="thumbnail">
           <div class="row no-gutters">
             <div class="col-auto">
             <picture>
@@ -497,7 +497,7 @@
           </div>
           
           <div class="col-md-6 card-blogs">
-          <a href="https://medium.com/agoda-engineering/designing-a-performance-and-insights-feed-for-hotels-e8725b86faaf" target="_blank" class="thumbnail">
+          <a href="https://medium.com/agoda-engineering/designing-a-performance-and-insights-feed-for-hotels-e8725b86faaf" rel=”noopener” target="_blank" class="thumbnail">
           <div class="row no-gutters">
             <div class="col-auto">
             <picture>

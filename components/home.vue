@@ -134,6 +134,7 @@
         <a
           class="dribbble-video"
           href="https://dribbble.com/shots/8931332-Performance-scores-for-hotels"
+          rel=”noopener”
           target="_blank"
         >
           <video autoplay loop>
@@ -159,6 +160,7 @@
         <a
           class="dribbble-video"
           href="https://dribbble.com/shots/14336599-Data-visualisation-feeds"
+          rel=”noopener”
           target="_blank"
         >
           <video autoplay loop>
@@ -178,6 +180,7 @@
         <a
           class="dribbble-video"
           href="https://dribbble.com/shots/13992275-Calendar-interaction"
+          rel=”noopener”
           target="_blank"
         >
           <video autoplay loop>
@@ -206,7 +209,7 @@
         <h2>Get in touch</h2>
         <p style="text-align: center">
           Reach me on
-          <a href="https://www.linkedin.com/in/alexfanden/" class="underline">
+          <a href="https://www.linkedin.com/in/alexfanden/" class="underline" rel=”noopener”>
             Linked<span id="linkedin">In</span> </a
           >, email me at
           <a href="mailto:fanden.alex@gmail.com" class="underline"
