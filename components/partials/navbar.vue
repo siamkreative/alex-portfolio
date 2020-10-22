@@ -15,8 +15,10 @@
         class="icon"
         width="100"
         height="60"
+        aria-labelledby="svgLogoID"
       >
         <use xlink:href="#logo"></use>
+        <title id="svgLogoID">fanden.design logo</title>
       </svg>
     </router-link>
     <ul class="navbar-nav">
@@ -76,11 +78,10 @@ export default {
     };
   },
   methods: {
-    positionLogo: function () {
+    positionLogo: function() {
       let logoWidth = document.querySelector(".logo").offsetWidth;
-      return (this.logoStyle = `position: absolute; left: 50%; margin-left: -${
-        logoWidth / 2
-      }px`);
+      return (this.logoStyle = `position: absolute; left: 50%; margin-left: -${logoWidth /
+        2}px`);
     },
   },
   mounted() {
