@@ -453,7 +453,7 @@
             ear. In general, the first group would understand how to read the graphs, analyze the numbers and make
             sense of the prototype.
           </p>
-          </p>The second group sometimes struggled with abbreviations, legends for graphs and
+          <p>The second group sometimes struggled with abbreviations, legends for graphs and
             more. We knew we wouldn’t be able to cater to both groups, at least not in the near future, and therefore
             we had to make a decision - do we cater to the savvier users, or do we simplify it so that everybody can
             understand it?
