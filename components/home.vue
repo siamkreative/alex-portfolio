@@ -10,11 +10,10 @@
       <div class="hero">
         <h1>Alexander Fandén</h1>
         <p class="lead">
-          <span class="bold">Product designer</span> based in Bangkok, Thailand.
+          A <span class="bold">Product designer</span> with 8+ years experience designing digital products and leading product teams.
         </p>
         <p class="lead">
-          Currently working for Agoda, helping hotels to sell rooms easier than
-          ever before.
+          Currently designing packages solutions for Agoda, helping travellers book hotels, flights and more for their trip.
         </p>
         <p class="lead">Scroll down to see my lastest work.</p>
       </div>
@@ -69,44 +68,9 @@
           <div class="proj-text">
             <h3>Improving the review process for hotel partners</h3>
             <p>
-              This is the story of how we migrated our reviews management tools
-              from web to app and how I managed to identify and solve some major
+              How we migrated our reviews management tools
+              from web to app and managed to identify and solve some major
               issues in the process.
-            </p>
-            <span class="btn-text">
-              Read more
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                class="icon"
-                width="0.75em"
-                height="0.75em"
-              >
-                <use xlink:href="#icon_arrow-right" />
-              </svg>
-            </span>
-          </div>
-        </div>
-      </router-link>
-
-      <div class="divider">
-        <hr />
-        <img src="../assets/logo.svg" alt="" />
-        <hr />
-      </div>
-
-      <router-link to="/agoda-ycs" class="underline-h3">
-        <div class="project-intro">
-          <picture class="proj-img">
-            <source srcset="/projects/agoda-ycs.webp" type="image/webp" />
-            <img src="/projects/agoda-ycs.jpg" alt="Agoda YCS App" />
-          </picture>
-          <div class="proj-text">
-            <h3>Agoda YCS</h3>
-            <p>
-              Manage your hotel on the go! With the YCS app, hotels all over the
-              world can create promotions, update rates, add allotment and see
-              who’s checking in and out of the hotel.
             </p>
             <span class="btn-text">
               Read more
