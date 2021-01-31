@@ -24,6 +24,69 @@
         <hr />
       </div>
 
+    
+        <div class="project-intro">
+          <picture class="proj-img">
+            <source srcset="/projects/figma.webp" type="image/webp" />
+            <img src="/projects/figma.jpg" alt="Figma and Agoda logo sliced and diced" />
+          </picture>
+          <div class="proj-text">
+            <a href="https://uxdesign.cc/how-we-migrated-our-design-team-to-figma-42f7c15892ff" target="_blank">
+              <h3>How we migrated our design team to Figma</h3>
+            </a>
+            <p>
+              As the coronavirus hit the travel industry earlier this year, the design team at Agoda looked at how we could save costs without sacrificing the quality of the work we’re doing.</p> 
+            <p>The collaborative features and the opportunity to shrink the cost of multiple license fees to just one were two compelling reasons to review Figma and eventually propose a plan to migrate our whole design organization to the new tool. 
+            </p>
+            <a href="https://uxdesign.cc/how-we-migrated-our-design-team-to-figma-42f7c15892ff" target="_blank">
+            <span class="btn-text">
+              Part 1: Tools, costs, and learnings from other design teams 
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                class="icon"
+                width="0.75em"
+                height="0.75em"
+              >
+                <use xlink:href="#icon_arrow-right" />
+              </svg>
+            </span></a><br>
+            <a href="https://uxdesign.cc/creating-a-more-collaborative-and-efficient-process-when-migrating-to-figma-f2c26c9c1df3" target="_blank">
+            <span class="btn-text">
+              Part 2: Creating a more collaborative and efficient process 
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="0.75em"
+                height="0.75em"
+              >
+                <use xlink:href="#icon_arrow-right" />
+              </svg>
+            </span></a>
+            <br>
+            <a href="https://uxdesign.cc/rolling-out-figma-to-the-design-team-tips-learnings-and-challenges-da5db8543808" target="_blank">
+            <span class="btn-text">
+              Part 3: Roll-out, feedback and learnings
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="0.75em"
+                height="0.75em"
+              >
+                <use xlink:href="#icon_arrow-right" />
+              </svg>
+            </span>
+            </a>
+          </div>
+        </div>
+
+      <div class="divider">
+        <hr />
+        <img src="../assets/logo.svg" alt="" />
+        <hr />
+      </div>
+      
+
       <router-link to="/app-dashboard" class="underline-h3">
         <div class="project-intro">
           <picture class="proj-img">
@@ -33,9 +96,8 @@
           <div class="proj-text">
             <h3>Performance and insights feed</h3>
             <p>
-              Keep track of everything that’s going on at your hotel! This brand
-              new feed gives hotels on Agoda.com the ability to review their
-              performance and keep track of recent activities from Agoda guests.
+              YCS is an enterprise tool where hotels can manage rates and allotment, bookings, promotions and much more. The YCS app was launched in early 2018 with a limited set of features. During 2019 we set out to expand on the app and build out some of the wanted features.</p>
+            <p>In this case study, I uncover how we designed a new insights feed for our hotel partners, giving them the relevant information they need about their performance, guests, and the hotel industry.
             </p>
             <span class="btn-text">
               Read more
@@ -68,9 +130,8 @@
           <div class="proj-text">
             <h3>Improving the review process for hotel partners</h3>
             <p>
-              How we migrated our reviews management tools
-              from web to app and managed to identify and solve some major
-              issues in the process.
+              The review score of a hotel is a deciding factor when travelers book hotels online. Therefore hotels need to be able to respond and take action as new reviews are being submitted by the guests.</p>
+            <p>This is how I redesigned the review feature on the YCS app and managed to identify and solve some major issues in the process.
             </p>
             <span class="btn-text">
               Read more
