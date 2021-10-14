@@ -10,7 +10,7 @@
       <div class="hero">
         <h1>Alexander Fandén</h1>
         <p class="lead">
-          A <span class="bold">Product designer</span> with 8+ years experience designing digital products and leading product teams.
+          A <span class="bold">Product Design Lead</span> with 8+ years experience designing digital products and leading product teams.
         </p>
         <p class="lead">
           Currently designing packages solutions for Agoda, helping travellers book hotels, flights and more for their trip.
